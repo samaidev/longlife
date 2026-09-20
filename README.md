@@ -1,0 +1,117 @@
+# LongLife · 长寿研究知识库
+
+> 面向"延长健康寿命（healthspan）"的系统化科学研究笔记。**树状分类结构，可扩展、可检索。**
+
+## 📚 知识库目录（点击直达）
+
+### 01 · 基础理论 Foundations
+> 衰老的底层科学：标志、时钟、核心信号分子。
+
+- [01-衰老的12大标志](01-foundations/01-aging-hallmarks.md)
+- [02-衰老时钟（表观/蛋白质组）](01-foundations/02-aging-clocks.md)
+- [03-NO基础：合成与信号通路](01-foundations/03-no-basics.md)
+- [04-NAD⁺/SIRT1 长寿网络](01-foundations/04-nad-sirtuin.md)
+- [05-端粒与基因组不稳定](01-foundations/05-telomeres.md)
+- [06-蛋白稳态与自噬](01-foundations/06-proteostasis-autophagy.md)
+- [07-干细胞耗竭](01-foundations/07-stem-cell-exhaustion.md)
+
+### 02 · 血管与代谢 Vascular & Metabolic
+> NO 通路的核心战场：血管年轻化与代谢健康。
+
+- [01-NO 心血管保护机制](02-vascular/01-no-cardiovascular.md)
+- [02-膳食硝酸盐与 NO](02-vascular/02-dietary-nitrate.md)
+- [03-代谢衰老与干预](02-vascular/03-metabolic-aging.md)
+- [04-线粒体与 NO](02-vascular/04-mitochondria.md)
+- [05-血管钙化与僵硬](02-vascular/05-vascular-calcification.md)
+- [06-脂代谢与动脉粥样硬化](02-vascular/06-lipid-atherosclerosis.md)
+
+### 03 · 免疫与炎症 Immunity & Inflammation
+> 免疫年轻化是抗衰的第二支柱。
+
+- [01-NO 免疫防御机制](03-immunity/01-no-immune.md)
+- [02-慢性炎症（inflammaging）](03-immunity/02-inflammaging.md)
+- [03-巨噬细胞极化](03-immunity/03-macrophage-polar.md)
+- [04-免疫衰老（immunosenescence）](03-immunity/04-immunosenescence.md)
+- [05-胸腺退化与 T 细胞库](03-immunity/05-thymus-tcells.md)
+- [06-神经-免疫轴](03-immunity/06-neuro-immune-axis.md)
+
+### 04 · 药物与分子 Drugs & Molecules
+> 抗衰药物的分子基础：从 AI 药物到分子机制深潜。
+
+- [01-Rentosertib 抗衰机制](04-drugs/01-rentosertib.md)
+- [02-Rentosertib 结构与合成](04-drugs/02-rentosertib-structure.md)
+- [03-Senolytic（杀衰老细胞）](04-drugs/03-senolytics.md)
+- [04-Senomorphic（衰老形态调节）](04-drugs/04-senomorphics.md)
+- [05-分子机制深潜（eNOS/sGC/S-亚硝基化/TNIK）](04-drugs/05-molecular-mech.md)
+- [06-mTOR 通路与雷帕霉素](04-drugs/06-mtor-rapamycin.md)
+- [07-二甲双胍与 AMPK](04-drugs/07-metformin-ampk.md)
+- [08-GLP-1 类](04-drugs/08-glp1.md)
+
+### 06 · 中医药 Traditional Chinese Medicine
+> 中医药与 NO 通路的交叉：益气活血的分子生物学注解。
+
+- [01-益气活血与 NO 通路](06-tcm/01-yiqi-huoxue.md)
+- [02-单味药机制（参丹七芪）](06-tcm/02-herbs.md)
+- [03-经典方剂与配伍](06-tcm/03-formulas.md)
+- [04-药食同源与食疗](06-tcm/04-food-medicine.md)
+- [05-针灸/穴位与 NO](06-tcm/05-acupuncture-no.md)
+
+### 07 · 干预与行动 Interventions
+> 可执行的抗衰方案：从运动到补充剂。
+
+- [01-日常抗衰执行清单](07-interventions/01-daily-checklist.md)
+- [02-运动处方](07-interventions/02-exercise.md)
+- [03-营养与禁食](07-interventions/03-nutrition.md)
+- [04-补充剂评估](07-interventions/04-supplements.md)
+- [05-睡眠优化](07-interventions/05-sleep-optimization.md)
+- [06-压力管理与 HRV](07-interventions/06-stress-hrv.md)
+
+### 08 · 前沿方向深度研究 Frontiers Deep-Dive
+> 所有前沿抗衰方向单独拎出、深度研究。每篇：机制→技术→证据→瓶颈→实验设计→路线图。
+
+- **08.1 [表观重编程](08-frontiers/01-reprogramming/README.md)**
+  - [01-概念与机制](08-frontiers/01-reprogramming/01-concept.md)
+  - [02-动物证据](08-frontiers/01-reprogramming/02-animal-evidence.md)
+  - [03-安全风险](08-frontiers/01-reprogramming/03-safety-risks.md)
+  - [04-技术路线图](08-frontiers/01-reprogramming/04-roadmap.md)
+- **08.2 [光照-脑-逆龄](08-frontiers/02-light-brain/README.md)**
+  - [01-PBM 分子机制](08-frontiers/02-light-brain/01-photobiomodulation.md)
+  - [02-频谱工程](08-frontiers/02-light-brain/02-light-spectrum.md)
+  - [03-下丘脑 SIRT1 开关](08-frontiers/02-light-brain/03-hypothalamus.md)
+  - [04-聚焦超声深部靶向](08-frontiers/02-light-brain/04-fus.md)
+  - [05-实验设计方案](08-frontiers/02-light-brain/05-experiment-design.md)
+- **08.3 [基因与细胞治疗](08-frontiers/03-gene-cell/README.md)**
+  - [01-基因治疗](08-frontiers/03-gene-cell/01-gene-therapy.md)
+  - [02-细胞治疗与年轻血液](08-frontiers/03-gene-cell/02-cell-therapy.md)
+  - [03-类器官与器官芯片](08-frontiers/03-gene-cell/03-organ-chip.md)
+- **08.4 [AI 药物研发](08-frontiers/04-ai-drugs/README.md)**
+  - [01-AI 药物研发范式](08-frontiers/04-ai-drugs/01-ai-discovery.md)
+  - [02-衰老时钟作为临床终点](08-frontiers/04-ai-drugs/02-aging-clocks-clinical.md)
+  - [03-多靶点抗衰药设计](08-frontiers/04-ai-drugs/03-multi-target.md)
+- **08.5 [线粒体医学](08-frontiers/05-mitochondria/README.md)**
+  - [01-线粒体与衰老](08-frontiers/05-mitochondria/01-mitochondrial-aging.md)
+  - [02-线粒体靶向药物](08-frontiers/05-mitochondria/02-mitotherapeutics.md)
+- **08.6 [合成生物学抗衰](08-frontiers/06-synthetic/README.md)**
+  - [01-合成生物学与抗衰](08-frontiers/06-synthetic/01-synthetic-biology.md)
+
+---
+
+## 核心结论速览
+
+1. **NO 是"血管-免疫-代谢"抗衰铁三角的枢纽分子**：eNOS/NO/cGMP 通路 + S-亚硝基化修饰 + 与 Sirt1/AMPK 正反馈耦合
+2. **Rentosertib 证明"AI 设计 + 衰老靶点 + 临床可测"范式可行**：42 例试验、6 套衰老时钟一致检出生物学年龄逆转 3-6 岁（senomorphic 机制）
+3. **光照逆龄的分子链成立**：特定频谱光 → CCO 光解离 NO → ATP↑ + 血管舒张 → 神经可塑性；"下丘脑 SIRT1 总开关"是前沿假设
+4. **中医药"益气活血"与 NO 通路高度对应**：人参/丹参/三七/黄芪多靶点恢复 NO 功能
+5. **"长生不老"无科学路径**；延长健康寿命是"地基（生活方式）+ 支柱（中医药/光/补剂）+ 升级（前沿药物）"三层的现实工程
+
+## 如何扩展
+
+- 新主题 → 新建 `09-xxx/` 目录 + README 索引
+- 新文档 → 放入对应主题目录，编号续排（`04-xxx.md`）
+- 文档模板：核心概念 → 分子机制 → 证据等级 → 临床/实验证据 → 与 NO 通路的联系 → 开放问题
+
+## 说明
+
+- 所有内容基于公开文献（Nature Biotechnology / Nature Medicine / Nature 抗衰子刊 / 科学通报等），未编造数据
+- 生物学年龄逆转均为探索性发现，需更大规模研究验证
+- 仅供研究参考，不构成医疗建议
