@@ -8,7 +8,7 @@
 |---|---|---|
 | [01-reprogramming](01-reprogramming/README.md) | 4 | 表观重编程（OSK/OSKM）：概念、动物证据、安全、路线图 |
 | [02-light-brain](02-light-brain/README.md) | 5 | 光照-脑-逆龄：PBM、频谱工程、下丘脑开关、FUS、实验设计 |
-| [03-gene-cell](03-gene-cell/README.md) | 3 | 基因与细胞治疗：基因治疗、年轻血液、类器官芯片 |
+| [03-gene-cell](03-gene-cell/README.md) | 3 | 基因与细胞治疗：基因治疗、细胞治疗、器官芯片 |
 | [04-ai-drugs](04-ai-drugs/README.md) | 3 | AI 药物研发：范式、衰老时钟临床终点、多靶点设计 |
 | [05-mitochondria](05-mitochondria/README.md) | 2 | 线粒体医学：线粒体衰老、线粒体靶向药物 |
 | [06-synthetic](06-synthetic/README.md) | 1 | 合成生物学抗衰 |
@@ -23,7 +23,7 @@ Tier 1（已进入人体/临床）：
 
 Tier 2（动物证据强，转化中）：
   · 光照-脑（PBM 临床多，FUS 深部靶向待验证）★★★
-  · 年轻血液/细胞治疗（AD 临床试验中）★★★
+  · 细胞治疗（MSC/iPSC/CAR-T 临床中）★★★
   · 基因治疗（AAV 平台成熟，抗衰适应症远）★★
 
 Tier 3（早期探索）：
