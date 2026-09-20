@@ -1,282 +1,216 @@
-# 慢性炎症与衰老：inflammaging 的分子全景
+# 慢性炎症与衰老（Inflammaging / Chronic Inflammation）
 
-> 主题定位：系统性慢性低度炎症作为衰老的核心驱动之一，从定义、驱动因素、分子通路到干预策略的系统梳理。本章是"衰老时钟"系列中连接免疫衰老与多器官老化的枢纽章节。
-
----
-
-## 1. 引言：当炎症"慢性化"
-
-急性炎症是机体应对损伤与感染的保护性反应，通常数天至数周内消退。然而在衰老过程中，炎症的"开关"逐渐失灵——促炎信号持续低强度存在，形成一种被称为 **inflammaging（炎症性衰老）** 的慢性低度炎症状态。它不像脓毒症那样致命，却如慢性毒药般侵蚀每一个器官系统：动脉粥样硬化、胰岛素抵抗、肌少症、认知衰退、肿瘤发生，无一不与它相关。
-
-术语 "inflammaging" 由意大利学者 **Claudio Franceschi 于 2000 年**在 *Annals of the New York Academy of Sciences* 的论文中正式提出（同年发表）。其核心洞见：免疫系统在生命过程中不断应对抗原负荷（感染、自身抗原、环境抗原），产生不可逆的免疫重塑，最终表现为促炎表型占优、免疫调节能力下降的"促炎-抗炎失衡"。Franceschi 的"网络理论"将衰老视为免疫系统长期"战斗损耗"的结果。
+> Inflammaging（炎症性衰老）——伴随增龄的低度、慢性、无菌性、全身性炎症状态，是 12 大衰老标志之一（López-Otín 2023 扩展版），也是心血管病、2 型糖尿病、神经退行、肿瘤等年龄相关疾病共用的"土壤"。它不来自单一病原体，而来自免疫系统对自身损伤信号（DAMP、SASP、代谢应激）的持续、低效响应；理解它的分子全链条，是理解"为什么抗炎不能简单等同于抗衰"的钥匙。
 
 ---
 
-## 2. Inflammaging 的定义与诊断标准
+## 核心概念
 
-### 2.1 操作定义
+Inflammaging 一词由意大利免疫学家 Claudio Franceschi 于 2000 年正式提出（*Ann N Y Acad Sci*），其定义为：**随增龄出现的低度（low-grade）、慢性（chronic）、无菌性（sterile）、全身性（systemic）炎症状态**——无明确的病原体感染，无急性炎症的红、肿、热、痛体征，但血清促炎细胞因子（IL-6、TNF-α、IL-1β）与急性期蛋白（CRP、纤维蛋白原）的基线水平持续轻度升高，并系统性驱动组织损伤与年龄相关疾病。Franceschi 同时给出演化论解释——"抗原负荷理论"（antigenic load theory）：机体一生中累积的抗原刺激（病原体、自身抗原、损伤分子、食物成分）持续消耗免疫储备，免疫系统在"防御"与"自身损伤"之间陷入两难，最终以低度炎症作为代价维持稳态。2013 年 López-Otín 等提出 9 大衰老标志时未单列炎症，2023 年扩展版正式将**慢性炎症**列为第 12 项标志，并新增巨噬细胞极化失衡（第 10 项）——炎症不再被视为衰老的"伴随现象"，而是连接损伤、代偿与功能衰退全程的放大器与执行器（详见 01-foundations/01-aging-hallmarks.md）。
 
-inflammaging 是指**随增龄出现的、持续存在的、低水平的全身性炎症状态**，其特征为：
+## 一、与急性炎症的本质区别
 
-- 循环促炎细胞因子轻度升高（2–4 倍于青年水平，远低于急性感染时的数百倍）
-- 无明确的感染或自身免疫病因
-- 呈系统性（非局限于单一器官）
-- 与年龄相关疾病和死亡率独立相关
+| 维度 | 急性炎症 | Inflammaging |
+|---|---|---|
+| 触发因素 | 病原体感染、组织创伤 | 无菌性 DAMP、SASP、代谢应激、内毒素 |
+| 强度与时程 | 强烈、数天至数周，可完全消退 | 低度、持续数月乃至终身 |
+| 典型体征 | 红、肿、热、痛、发热 | 无局部体征，仅实验室指标轻度升高 |
+| 主导细胞 | 中性粒细胞、单核细胞浸润 | 巨噬细胞（M1 偏向）、衰老细胞、微胶质细胞 |
+| 结局 | 病原清除、组织修复、稳态恢复 | 组织微损伤累积、纤维化、功能衰退 |
+| 生物学意义 | 宿主防御（有益） | 免疫系统"代偿性但最终有害"的激活 |
 
-### 2.2 经典标志物变化（参考量化）
+关键认识有三：其一，inflammaging 的强度虽低，但**持续暴露于全系统**——IL-6 仅升高 2–4 倍即可预测死亡率翻倍，说明"慢性"比"强度"更具破坏性；其二，inflammaging 与免疫衰老（immunosenescence，详见 03-immunity/04-immunosenescence.md）互为表里——免疫衰老削弱病原清除与损伤修复能力，使抗原与 DAMPs 滞留，反过来持续点燃炎症；其三，近年"训练免疫"（trained immunity，Netea 2016）概念补充了其细胞基础：单核/巨噬细胞在首次刺激后经表观重编程（H3K4me3、H3K27ac 沉积于 TNF、IL-6 等促炎基因启动子）获得"先天免疫记忆"，使老年个体对后续刺激的反应更猛烈、更持久——inflammaging 因而具有"自我放大"的动力学特征。
 
-| 标志物 | 青年参考（约） | 老年（70+ 岁）典型变化 | 说明 |
-|--------|----------------|------------------------|------|
-| IL-6 | 1–3 pg/mL | 2–6 pg/mL（可升高 2–4 倍） | 最强预测指标之一 |
-| TNF-α | 1–5 pg/mL | 轻度升高 | 与肌少症相关 |
-| CRP（hsCRP） | <1 mg/L | 1–3 mg/L（"灰区"） | >3 mg/L 提示明显炎症负担 |
-| 纤维蛋白原 | 2–4 g/L | 轻度升高 | 与血栓风险相关 |
+## 二、分子机制全链条
 
-**关键量化证据**：1990 年代至 2000 年代多项前瞻性队列（如 InCHIANTI 研究，Ferrucci 等）显示，**IL-6 处于最高四分位的老年人，其 4–7 年死亡率约为最低四分位的 2 倍**；即使调整合并症后关联依然显著。CRP 每升高一个对数单位，心血管事件风险约增加 1.5 倍（多项 meta 分析）。
+### 2.1 炎症枢纽：NF-κB 信号通路
 
-### 2.3 与"衰老时钟"的关系
-
-inflammaging 与表观遗传时钟（Horvath 时钟）、端粒长度等衰老标志呈相关关系：慢性炎症加速表观遗传年龄（"炎症时钟"概念，如 2022 年前后提出的 iAge 免疫时钟，基于 CMV、TNF-α、CXCL9 等指标预测免疫年龄），而表观遗传漂移又反过来促进炎症基因去抑制。两者构成**正反馈回路**：
+几乎所有炎症来源的信号最终汇聚于转录因子 NF-κB（p65/RelA–p50 异二聚体），它是炎症时钟的枢纽节点。完整链条：
 
 ```
-慢性炎症 ──► 表观遗传漂移（炎症基因去抑制） ──► 更多炎症因子 ──► …
-    ▲                                                    │
-    └────────────────────────────────────────────────────┘
-```
-
----
-
-## 3. Inflammaging 的六大驱动因素
-
-### 3.1 衰老相关分泌表型（SASP）
-
-衰老细胞（senescent cells）虽停止增殖，却依然代谢活跃，分泌大量促炎因子、趋化因子、基质金属蛋白酶与生长因子，即 **SASP**（senescence-associated secretory phenotype，Coppé 等 2008 年命名）。SASP 由 DNA 损伤反应（DDR）通过 **NF-κB 与 C/EBPβ** 驱动。
-
-```
-DNA损伤/端粒缩短/致癌应激 ──► p53/p21 或 p16/Rb 通路激活
-                                   │
-                                   ▼
-                          细胞周期停滞（衰老）
-                                   │
-                        ┌──────────┴──────────┐
-                        ▼                     ▼
-                   NF-κB 活化            C/EBPβ 活化
-                        │                     │
-                        └──────────┬──────────┘
-                                   ▼
-                     SASP 因子分泌：IL-6, IL-8, TNF-α,
-                     IL-1α/β, MMP-3/9, PAI-1, CXCL-1/10
-                                   │
-                                   ▼
-                  旁分泌衰老扩散 + 组织微环境慢性炎症
-```
-
-**量化**：衰老细胞在年轻组织中占比常 <1%，在老年组织可升至 5–15% 甚至更高（不同组织异质）。2011 年 Baker 等 *Nature* 证明清除 p16 阳性衰老细胞可延长小鼠寿命并延缓多种衰老表型——"清除衰老细胞"由此成为抗衰老药物（senolytics）的核心策略。
-
-### 3.2 病原体负担（抗原负荷）
-
-Franceschi 的核心假设之一：终生累积的病原体暴露（尤其 **CMV 巨细胞病毒**）驱动免疫系统"克隆性耗竭"与炎症极化。CMV 血清阳性与 CD8⁺ T 细胞寡克隆扩增、IL-6 升高相关；此外 EBV、HIV、慢性牙周炎（Porphyromonas gingivalis）等慢性感染均贡献炎症负担。
-
-### 3.3 自噬功能下降
-
-自噬（autophagy）是清除受损细胞器与蛋白聚集物的核心机制。衰老细胞自噬活性普遍下降（mTOR 活性相对升高、LC3 周转减慢、自噬体-溶酶体融合障碍），导致：
-
-- 受损线粒体堆积 → 线粒体 DAMPs 释放
-- 蛋白聚集体（如神经退行中的 tau/α-synuclein）堆积 → 激活炎症通路
-- 自噬抑制 NF-κB 的能力减弱
-
-动物实验中，Atg5/Atg7 敲除加速炎症与衰老；雷帕霉素（mTOR 抑制剂）通过增强自噬延长寿命并降低炎症。
-
-### 3.4 线粒体 DAMPs 与 mtDNA 泄漏
-
-受损线粒体释放的损伤相关分子模式（DAMPs）是炎症的直接触发器：
-
-```
-线粒体应激/自噬失败
+上游刺激（TNF-α/TNFR、IL-1β/IL-1R、LPS/TLR4、DAMP/RAGE）
         │
         ▼
-mtDNA 泄漏至胞质 ──► cGAS ──► STING ──► IRF3 + NF-κB ──► I 型干扰素 + IL-6
-        │
-        ├──► 线粒体 ROS (mtROS) ──► NLRP3 炎症小体活化
-        │
-        └──► 心磷脂/ATP/甲酰肽（fMet 肽）释放 ──► TLR9/炎症小体
-```
-
-**关键证据**：2018 年（Dou 等 *Nature*）与 2021 年（Victorelli 等 *Nature Aging*）先后证明，衰老细胞经 **BAX/BAK 通道释放 mtDNA 至胞质，激活 cGAS-STING**，进而驱动 SASP——即"线粒体-胞质 mtDNA-cGAS-STING"轴是 SASP 与炎症衰老的关键上游。STING 激动可加速衰老，STING 抑制可延缓。
-
-### 3.5 肠道菌群移位与肠漏
-
-衰老伴随肠道屏障功能下降（紧密连接蛋白 Claudin/Occludin 表达下调）、肠道菌群组成改变（多样性下降、促炎菌属如 Enterobacteriaceae 相对增多），内毒素 LPS 经门脉系统"漏"入循环：
-
-```
-肠道菌群失调 + 屏障受损
+  接头蛋白 TRAF2/6、MyD88、TRIF
         │
         ▼
-LPS 易位（"代谢性内毒素血症"，Cani 等 2007 命名）
+   IKK 复合物（IKKα/IKKβ/IKKγ=NEMO）──IKKβ 磷酸化 IκBα（Ser32/36）
         │
         ▼
-TLR4 激活 ──► NF-κB ──► 全身低度炎症
+   SCF-βTrCP E3 连接酶 → IκBα 泛素化（Lys48）→ 26S 蛋白酶体降解
+        │
+        ▼
+   NF-κB（p65/p50）暴露核定位序列 → 入核 → 结合 κB 基序
+        │
+        ▼
+   转录数百个炎症基因：IL-6、TNF-α、IL-1β、COX-2、iNOS、
+   ICAM-1/VCAM-1、MCP-1、PAI-1、MMP-9……
 ```
 
-Cani 等 2007 年 *Diabetes* 的里程碑研究显示，高脂饮食诱导的代谢性内毒素血症（血浆 LPS 升高约 1.3 倍）即可驱动肥胖相关的全身炎症与胰岛素抵抗。
+衰老中此通路出现三重异常：(a) **上游刺激增多**——SASP 因子、氧化型 mtDNA、LPS、AGEs 持续供给；(b) **负反馈受损**——NF-κB 本身诱导 IκBα 再合成构成自限环，但衰老组织中该负反馈减弱（与 IKK 持续活化、IκBα 再合成滞后有关）；(c) **去乙酰化刹车失灵**——SIRT1/SIRT6 活性随 NAD+ 下降而降低，p65 的 K310 乙酰化升高，NF-κB 转录活性增强（见第五节）。老年大鼠心脏、肝脏、脑组织中核内 NF-κB DNA 结合活性升高数倍（Helenius 1996 等），且活性升高先于组织病理表型，提示其驱动而非跟随。NF-κB 也是 SASP 的主控转录因子（与 C/EBPβ 协同），由此把"细胞衰老"与"系统炎症"锁死在同一回路。
 
-### 3.6 内分泌与代谢因素
+### 2.2 NLRP3 炎性小体：从传感器到焦亡
 
-- 脂肪组织（尤其内脏脂肪）作为内分泌器官分泌 IL-6、TNF-α、瘦素；肥胖者的脂肪组织巨噬细胞呈 M1 极化（见巨噬细胞极化章节）。
-- 性激素下降（雌激素/睾酮减少）解除对炎症的部分抑制。
-- NAD⁺ 水平下降 → SIRT1 活性降低 → NF-κB 乙酰化增强、炎症去抑制。
-
----
-
-## 4. NF-κB：inflammaging 的中心枢纽
-
-### 4.1 全链条信号通路
-
-NF-κB 是几乎所有炎症驱动因素的汇聚点，其活化在衰老组织中被系统性放大：
+NLRP3 炎性小体是炎症的"分子放大器"，将多种损伤信号转化为 IL-1β/IL-18 释放与焦亡（pyroptosis）。其激活遵循**双信号模型**：
 
 ```
-驱动因素 ──► 受体 ──► 接头 ──► 激酶 ──► IκB ──► NF-κB 核转位 ──► 靶基因
-─────────────────────────────────────────────────────────────────────
-LPS      ──► TLR4      MyD88/TIRAP  IRAK1/4, TRAF6, TAK1   IKKβ    p50/p65
-TNF-α    ──► TNFR1     TRADD, TRAF2, RIPK1                 IKKβ    p50/p65
-IL-1β    ──► IL-1R     MyD88, IRAK, TRAF6                  IKKβ    p50/p65
-mtDNA    ──► cGAS/STING TBK1                                IKKε    p50/p65
-ROS/DDR  ──► ATM/ATR    NEMO 核转位                         IKKγ    p50/p65
-SASP因子 ──► 旁分泌受体  同上                                  IKKβ    p50/p65
+信号1（启动 priming）：TLR/NF-κB → 转录上调 NLRP3、pro-IL-1β、pro-IL-18
+信号2（激活 activation，任一即可）：
+  ├─ K⁺ 外流（通用触发器；ATP/P2X7、成孔毒素、颗粒物均经此）
+  ├─ 线粒体 ROS 升高 / 氧化型 mtDNA 释放
+  ├─ 溶酶体损伤 → 组织蛋白酶 B（cathepsin B）泄漏
+  └─ 尿酸/胆固醇结晶、淀粉样蛋白 Aβ、明矾等颗粒物
+        │
+        ▼
+NLRP3 招募 NEK7（K⁺ 外流下游必需）→ 寡聚 → 招募 ASC
+        │
+        ▼
+ASC 螺旋纤维聚合 → 形成"ASC 斑点"（ASC speck，细胞质内单一大聚集体）
+        │
+        ▼
+pro-caspase-1 招募并寡聚自剪切 → 活性 caspase-1
+        │
+        ├──► 剪切 pro-IL-1β → 成熟 IL-1β（主放大器）
+        ├──► 剪切 pro-IL-18 → 成熟 IL-18（促 IFN-γ）
+        └──► 剪切 gasdermin D（GSDMD）→ N 端结构域在质膜打孔
+                 → IL-1β/IL-18 经孔释放 + 细胞焦亡（裂解性死亡）
 ```
 
-**靶基因谱**：IL-6、IL-1β、TNF-α、IL-8、COX-2、iNOS、ICAM-1、VCAM-1、MCP-1、MMP-9 等——几乎涵盖炎症标志物全谱。
+要点：**K⁺ 外流是 NLRP3 激活的通用触发**（Muñoz-Planillo 2013，细菌毒素、颗粒物、ATP 均以胞内 K⁺ 下降为共同终点）；**NEK7 是 K⁺ 外流与 NLRP3 之间的必需衔接蛋白**（He 2016，Nature）；**ASC 斑点**是炎性小体激活的形态学标志，可在单个细胞内聚合成一个微米级斑点；**gasdermin D 打孔**使 IL-1β 以非经典途径释放并引发焦亡，焦亡释放的胞内容物又作为 DAMPs 进一步激活炎症——正反馈。IL-1β 是炎症网络的"主放大器"：激活内皮、招募中性粒细胞、诱导肝脏急性期蛋白（CRP 即其下游产物）。NLRP3 活性随龄在多种组织升高，与痛风、动脉粥样硬化、阿尔茨海默病、2 型糖尿病的病理直接相关；CANTOS 试验用抗 IL-1β 单抗 canakinumab 证明靶向该轴可降低人类心血管与肿瘤终点（见第四节）——NLRP3/IL-1β 轴是当前抗炎抗衰药物开发最热的靶点。
 
-### 4.2 衰老中 NF-κB 为何"锁死"在活化态
+### 2.3 来源一：SASP 与细胞衰老的正反馈
 
-1. **表观遗传去抑制**：H3K4me1 等增强子标记在炎症基因位点累积（"炎症增强子老化"）；DNA 甲基化随增龄在炎症基因启动子下降。
-2. **负反馈失灵**：IκBα 再合成（NF-κB 自身诱导的负反馈）在衰老细胞中减弱；SIRT1 对 p65 Lys310 去乙酰化作用下降（NAD⁺ 不足），p65 乙酰化增强 → 转录活性增强。
-3. **IκB 激酶持续激活**：DDR（ATM/ATR）与线粒体 ROS 持续提供上游信号。
-4. **表观遗传时钟与炎症**：Horvath 时钟 CpG 位点富集于多梳抑制复合物（PRC2）靶基因，其甲基化漂移与炎症基因沉默解除相耦合。
+衰老细胞（第 7 大衰老标志）以 SASP（衰老相关分泌表型）持续分泌 IL-6、IL-8、TNF-α、IL-1α/β、PAI-1、MMPs 及趋化因子。SASP 经旁分泌诱导邻近细胞衰老（旁观者效应），衰老细胞增多又扩大 SASP 供给——构成"炎症—衰老"自我放大的正反馈循环。SASP 的转录由 NF-κB 与 C/EBPβ 主导，且部分依赖 cGAS-STING（衰老细胞胞质中积累的染色质片段激活 cGAS）。短期 SASP 具有生理功能（伤口愈合、肿瘤抑制），慢性累积则转变为系统性炎症引擎。清除衰老细胞（senolytics）可同时降低炎症负荷并延缓衰老表型（详见 04-drugs/03-senolytics.md）；抑制 SASP 分泌而不杀细胞者称 senomorphics（详见 04-drugs/04-senomorphics.md）。
 
----
+### 2.4 来源二：受损线粒体 mtDNA 泄漏激活 cGAS-STING
 
-## 5. NLRP3 炎症小体：inflammaging 的执行器
+随龄线粒体自噬（mitophagy，PINK1/Parkin 通路）下降 → 受损线粒体堆积 → 氧化型 mtDNA 经 BAX/BAK 孔、线粒体通透性转换孔（mPTP）或外膜破裂泄漏至胞质 → 被胞质 DNA 传感器 **cGAS** 识别 → 催化生成 2'3'-cGAMP → 激活内质网上的 **STING** → 招募 TBK1 → 磷酸化并激活 IRF3 与 NF-κB → 转录 I 型干扰素（IFN-α/β）与促炎因子。同时，氧化型 mtDNA 可直接作为信号 2 激活 NLRP3（Shimada 2012）。动物实验表明 STING 通路激活随龄增强，而 cGAS/STING 缺陷可减轻老年组织炎症并部分延缓衰老表型（多项机制研究）；TFAM 减少（mtDNA 包装松弛）即可触发该通路——"线粒体应激→先天免疫激活"是炎症的深层来源。
 
-NLRP3 炎症小体是感知"细胞危险"并放大炎症的核心蛋白复合物，其活化遵循**双信号模型**：
+### 2.5 来源三：肠道菌群失调与代谢性内毒素血症
+
+随龄肠道菌群多样性下降：产短链脂肪酸（SCFA，尤其丁酸）的有益菌减少、潜在致病菌（变形菌门等）增多；同时肠上皮紧密连接破坏、通透性升高（"肠漏"）→ 革兰阴性菌外膜成分 **LPS（脂多糖）** 低剂量持续入血 → 经 TLR4-MyD88 激活单核/巨噬细胞 → IL-6、TNF-α 轻度持续升高——Cani 等（2007）在肥胖/高脂饮食模型中命名为"代谢性内毒素血症"，该机制在衰老肠道同样成立。丁酸等 SCFA 本经 GPR43 信号与组蛋白去乙酰化酶（HDAC）抑制发挥抗炎作用，菌群失调同时解除这一"刹车"。此外，巨细胞病毒（CMV）等潜伏感染终身携带、反复再激活，构成慢性抗原负荷，与免疫衰老共同抬升炎症基线。
+
+### 2.6 来源四：脂肪组织炎症与巨噬细胞极化失衡
+
+老年（尤其腹型肥胖）个体的脂肪组织是系统性炎症的重要来源：脂肪细胞肥大、缺氧 → 释放趋化因子 MCP-1 → 招募单核细胞 → 巨噬细胞浸润并极化为 **M1 促炎型**（NF-κB/STAT1 驱动，分泌 TNF-α、IL-1β、IL-6、iNOS），在坏死脂肪细胞周围形成"冠冕样结构"（crown-like structures）→ TNF-α 磷酸化 IRS-1 丝氨酸位点（Ser307）抑制胰岛素信号 → 胰岛素抵抗（Hotamisligil 1993 首次证明脂肪组织 TNF-α 与肥胖-糖尿病关联）。抗炎修复型 **M2**（STAT6/PPARγ 驱动，分泌 IL-10、TGF-β、精氨酸酶）随龄减少，且老年巨噬细胞清除凋亡细胞的能力（efferocytosis，MerTK/MFG-E8）下降，凋亡细胞滞留继发坏死 → 炎症持续——M1/M2 极化失衡是 2023 版新增的第 10 大衰老标志（详见 03-immunity/03-macrophage-polar.md）。内脏脂肪炎症负荷显著高于皮下脂肪。
+
+### 2.7 炎症网络总图
 
 ```
-信号1 (Priming)：TLR/NF-κB ──► NLRP3 与 pro-IL-1β/pro-IL-18 转录上调
-                                   │
-信号2 (Activation)：
-  K⁺外流 / mtROS / 组织蛋白酶B释放(溶酶体破裂)
-  / mtDNA / 尿酸/胆固醇晶体 / ATP→P2X7
-                                   │
-                                   ▼
-                NLRP3 + ASC + pro-caspase-1 组装
-                                   │
-                                   ▼
-                caspase-1 活化
-                 ├──► IL-1β 成熟分泌
-                 ├──► IL-18 成熟分泌
-                 └──► Gasdermin D 切割 ──► 焦亡（细胞膜穿孔、DAMPs 释放）
+  来源层          放大器层              效应层
+┌──────────┐   ┌────────────────┐   ┌────────────────┐
+│SASP/衰老细胞│──▶│                │──▶│ 动脉粥样硬化    │
+│mtDNA/cGAS │──▶│  NF-κB 枢纽     │──▶│ 胰岛素抵抗/脂肪肝│
+│肠道 LPS   │──▶│  (转录放大)     │──▶│ 神经退行(小胶质) │
+│脂肪 M1 巨噬│──▶│  NLRP3 炎性小体  │──▶│ 肌少症/骨丢失    │
+│潜伏病毒   │──▶│  (IL-1β/焦亡)   │──▶│ 肿瘤微环境      │
+└──────────┘   └────────────────┘   └────────────────┘
+      ↕ 正反馈：炎症诱导衰老、衰老分泌炎症、焦亡释放 DAMP
 ```
 
-**衰老中的 NLRP3**：
+## 三、证据分级
 
-- 衰老细胞 NLRP3 表达升高（priming 增强），且更易被激活（mtROS 增多、溶酶体不稳定）。
-- **NLRP3 与 SASP 的互相放大**：IL-1β 是 SASP 的重要组分，又能反向促进衰老（IL-1β 处理可诱导早衰）。
-- **GSDMD 焦亡与炎症扩散**：焦亡释放的 DAMPs（HMGB1、mtDNA、ATP）进一步激活邻近细胞 NLRP3，形成"炎症扩散波"。
-- 动物证据：NLRP3 或 IL-1β 缺失小鼠表现出更健康的代谢表型与部分延长寿命的表观；ASC 缺失降低衰老相关炎症。
+| 现象 | 证据等级 | 关键文献 |
+|---|---|---|
+| 血清 IL-6、TNF-α、CRP 随龄升高（健康老人 IL-6 基线为年轻人的 2–4 倍） | 实锤（多个人群队列一致） | Cohen 1997; Ferrucci 1999/2005 |
+| 炎症标志物预测残疾、虚弱、心血管事件与全因死亡 | 实锤（前瞻队列，独立于传统危险因素） | InCHIANTI; Whitehall II |
+| 组织中 NF-κB 活性随龄升高 | 强关联（动物多组织+人体样本） | Helenius 1996 等 |
+| 清除 p16⁺ 衰老细胞降低炎症并延长寿命 | 动物因果（转基因清除模型） | Baker 2016 Nature |
+| 抗 IL-1β（canakinumab）降低心血管事件与肿瘤死亡率 | 人体 RCT（因果） | Ridker 2017 NEJM |
+| 阿司匹林在健康老人中无残疾生存获益 | 人体 RCT（阴性结果） | ASPREE 2018/2019 |
+| 低剂量秋水仙碱降低冠心病事件 | 人体 RCT | LoDoCo2 2020 |
+| mtDNA-cGAS-STING 驱动衰老炎症 | 动物因果+体外机制 | Shimada 2012; Dou 2017 |
+| 二甲双胍降 CRP、抑制 NF-κB | RCT/观察（代谢人群）+机制 | 多项 |
+| NLRP3 抑制剂（dapansutrile） | 机制确证+早期临床 | Marchetti 2018 PNAS |
+| 肠道菌群→LPS→炎症（衰老） | 动物因果+人体关联 | Cani 2007 等 |
 
-**量化**：老年组织（如脂肪、肝）中 NLRP3、caspase-1、IL-1β 蛋白水平通常为年轻对照的 2–5 倍（多项 Western blot 定量，动物与人体标本）。
+证据等级说明：实锤=多队列/多物种一致且机制清晰；强关联=动物因果或人体一致关联；机制推测=体外或机制研究支持、人体证据待补。总体而言，**"炎症标志物随龄升高并预测不良结局"是人体观察的最高等级证据，而"抗炎干预改善衰老终点"仅在特定靶点（IL-1β、秋水仙碱）获得 RCT 支持，广谱抗炎（阿司匹林）在健康老人中为阴性**——证据图谱本身指向"炎症的异质性"。
 
----
+## 四、临床/实验证据细节
 
-## 6. 炎症标志物与衰老时钟的定量关系
+**（1）炎症负荷与衰老结局（观察性）**：健康年轻人 IL-6 基线约 1–2 pg/mL，健康老人升高 2–4 倍；hsCRP 中位数从 <1 mg/L 升至 2–3 mg/L。Cohen 等（1997，社区老人队列）发现血浆 IL-6 升高与功能障碍显著相关；InCHIANTI 队列（Ferrucci 等，托斯卡纳老年人）显示 IL-6、CRP 升高独立预测行动受限与死亡——IL-6 每升高一个标准差，行动受限风险约增 60–70%。Whitehall II 等队列确认 CRP/IL-6 与全因死亡、心血管死亡独立相关。炎症与表观时钟的关联同样明确：PhenoAge 表观时钟（Levine 2018）直接把 CRP、白蛋白、葡萄糖等炎症/营养标志物编入 DNA 甲基化年龄模型——炎症被"写进"了生物学年龄，IL-6/CRP 高者表观年龄加速。
 
-| 研究/队列 | 发现 | 级别 |
-|-----------|------|------|
-| InCHIANTI（意大利，Ferrucci 等 1999–） | IL-6、CRP、TNF-α 随增龄升高；IL-6 高四分位者 4 年死亡率约为低四分位 2 倍 | 前瞻队列（Ⅰ级） |
-| Health ABC（美国） | IL-6 与 CRP 升高预测功能衰退、肌少症、残疾 | 前瞻队列（Ⅰ级） |
-| ASPREE（2018 *NEJM*，阿司匹林一级预防） | 阿司匹林未降低老年人死亡/残疾/心血管事件，反而增加出血——提示"单纯抗炎药"策略需谨慎 | RCT（Ⅰ级阴性） |
-| CANTOS（2017 *NEJM*，canakinumab 抗 IL-1β） | 降低复发性心血管事件（HR≈0.85），且肺癌致死率下降——**首个证明靶向炎症通路改善人类预后的 RCT** | RCT（Ⅰ级） |
-| TAME 试验（二甲双胍抗衰老，进行中） | 以"多病共存"为终点的抗炎抗衰 RCT | 进行中 |
+**（2）CANTOS：首次人体因果证据**（Ridker 2017，NEJM）：10,061 例心梗后 hsCRP≥2 mg/L 患者，canakinumab（抗 IL-1β 单抗）150 mg 每 3 个月一次，中位随访 3.7 年——主要不良心血管事件（MACE）HR 0.85（95%CI 0.74–0.98），且不依赖血脂下降；hsCRP 降至 <2 mg/L 者获益最大；继发分析显示肺癌发病率与死亡率分别下降（HR 0.61/0.33）。这是人类历史上第一次证明"单纯抗炎（不经降脂）"可降低心血管与肿瘤终点，直接支持炎症在年龄相关疾病中的因果地位。
 
-**CANTOS 的意义**：卡纳单抗（canakinumab，抗 IL-1β 单抗）使 hsCRP 达标（<2 mg/L）者获益最大，而 hsCRP 未降者无获益——直接验证了"炎症负荷决定预后"假说，也提示**炎症分层（hsCRP 检测）指导干预**的精准医学路径可行。
+**（3）ASPREE：广谱抗炎的反面教材**（McNeil 2018 NEJM / 2019 JAMA）：19,114 名 ≥70 岁健康老人，阿司匹林 100 mg/d，中位 4.7 年——无残疾生存无获益，大出血风险显著升高（HR≈1.38），全因死亡反而升高（HR 1.14，主要由癌症相关死亡驱动）。ASPREE 传递的核心信息：**健康老人的低度炎症不是"越早压越低越好"**——广谱、非靶向、长期抑制炎症的净获益为负；抗炎必须瞄准特定轴（IL-1β、NLRP3）与特定人群（炎症负荷高者）。
 
----
+**（4）秋水仙碱与二甲双胍**：LoDoCo2（2020，NEJM）5,522 例慢性冠心病患者，秋水仙碱 0.5 mg/d——心血管事件 HR 0.69，提示低剂量 NLRP3 上游抑制（微管/ASC 组装相关）在二级预防中有效。二甲双胍经 AMPK 激活抑制 NF-κB 与 NLRP3，在 2 型糖尿病人群 RCT 中显著降低 CRP；以"二甲双胍抗衰老"为目标的 TAME 试验（Barzilai 主导）进行中（详见 04-drugs/07-metformin-ampk.md）。
 
-## 7. 抗炎干预策略
+**（5）Senolytics 人体试验**：达沙替尼+槲皮素（D+Q）在糖尿病肾病（Hickson 2019，EBioMedicine）与特发性肺纤维化（Justice 2019）患者中，单疗程即降低循环 SASP 因子（IL-6、MMP 等）并减少脂肪组织衰老细胞——从源头削减 SASP 供给的可行性首次在人体得到验证。
 
-### 7.1 运动：最被低估的抗炎药
+**（6）生活方式干预的效应量**：规律有氧+抗阻运动使静息 CRP/IL-6 中等幅度下降（多项 meta 分析，CRP 约降 15–30%），机制包括肌肉源性 IL-6 经 IL-10 的抗炎效应（运动后 IL-10 升高）与 eNOS 剪切应力激活；每日 1–3 g EPA+DHA（omega-3）使 CRP 中度下降；地中海饮食在 PREDIMED 试验中降低心血管事件并伴炎症标志物改善。
 
-- 急性运动短暂升高 IL-6（主要来自肌肉，具抗炎特性，可抑制 TNF-α），长期规律运动降低静息 IL-6、CRP、TNF-α（多项 meta 分析，效应量中等，CRP 约降 15–30%）。
-- 机制：减少内脏脂肪（脂肪组织炎症源）、增加 IL-1ra 与 IL-10、激活 AMPK、改善线粒体质量（mitophagy）。
-- "运动即 senolytic"：部分证据显示运动促进衰老细胞清除（NK 细胞介导）。
+**（7）百岁老人：炎症的"自然对照"**：健康百岁老人常表现出低于普通老年人群的炎症水平，构成观察性证据的"反向验证"——意大利百岁老人研究（Franceschi 团队）显示，百岁及超百岁个体 IL-6、CRP 升高幅度小于同龄不健康老人，且其基因型中抗炎/促炎细胞因子多态呈"炎症控制型"组合（如 IL-6 -174GC、IL-10 高表达型），提示遗传决定的炎症调节能力与极端长寿相关。机制研究表明，IL-6 信号存在经膜结合受体（classic signaling，抗炎/再生）与经可溶性受体 sIL-6R 的 trans-signaling（促炎）两条路径，前者随龄相对减弱而后者增强——衰老中升高的血清 IL-6 更多经 trans-signaling 发挥作用，这也解释了为何"总 IL-6 水平"只是炎症状态的粗略代理指标；可溶性 gp130（sgp130）可中和 trans-signaling，是正在探索的干预思路。
 
-### 7.2 禁食与热量限制
+## 五、与 NO / NAD+ / 长寿网络的联系
 
-- 热量限制（CR）在啮齿类中降低 IL-6、TNF-α，延长寿命（经典：McCay 1935 起）。
-- 间歇性禁食（IF）与模拟禁食饮食（FMD，Longo 等）激活自噬、降低炎症标志物，诱导代谢转换（酮体 β-羟基丁酸抑制 NLRP3 炎症小体——Youm 等 2015 *Nat Med* 直接证据）。
-- 酮体（BHB）在毫摩尔浓度下抑制 NLRP3 组装（阻断 K⁺ 外流下游信号）。
+**NO 是内源性抗炎分子的代表，其抗炎作用有完整的分子链**：
 
-### 7.3 药物干预
+```
+低浓度 NO（eNOS/nNOS 来源）
+  ├─► S-亚硝基化 IKKβ（Cys179）→ 抑制 IKK 激酶活性 → NF-κB 激活受阻（Reynaert 2004 PNAS）
+  ├─► S-亚硝基化 p65（Cys38）→ 降低其 DNA 结合能力
+  ├─► 激活 SIRT1 → 去乙酰化 p65（K310）→ 抑制 NF-κB 转录活性（Yeung 2004 EMBO J）
+  └─► 下调 ICAM-1/VCAM-1 → 抑制白细胞-内皮粘附与浸润（De Caterina 1995）
+        └─► 净效应：SASP 分泌↓、巨噬细胞 M2 维持、血管抗炎
+```
 
-| 药物 | 靶点/机制 | 证据状态 |
-|------|-----------|----------|
-| 二甲双胍 | AMPK 激活、NF-κB 抑制、自噬增强 | 观察性研究显示降炎症、延寿表型；TAME 试验进行中 |
-| 雷帕霉素 | mTOR 抑制、自噬增强 | 小鼠延寿 10–20%，降低免疫衰老；人体证据有限、副作用（免疫抑制）限制 |
-| senolytics（达沙替尼+槲皮素，D+Q） | 清除衰老细胞 | 小鼠多种模型获益；人体小样本（IPF 等）显示 SASP 标志物下降 |
-| 阿司匹林/NSAIDs | COX 抑制 | ASPREE 阴性甚至有害 → 不支持普适预防 |
-| canakinumab | 抗 IL-1β | CANTOS 阳性（心血管+肺癌死亡率↓） |
-| 中药（见下） | 多靶点 | 证据等级低，需规范研究 |
+**NO 不足与炎症互为因果的恶性循环**：慢性炎症 → 氧化应激 → BH4 被氧化（BH4→BH2）→ eNOS 解偶联 → NO 生成下降且转而产超氧阴离子 → 抗炎刹车失灵 → 炎症进一步放大；与此同时，NF-κB 转录诱导 **iNOS**（其启动子含多个炎症响应元件）→ 巨噬细胞持续高浓度产 NO（μM 级）→ NO 与超氧以近 1:1 反应生成过氧亚硝酸盐（ONOO⁻，扩散控制速率 ~10⁹–10¹⁰ M⁻¹s⁻¹）→ 硝化酪氨酸（3-NT）沉积、线粒体复合物抑制、NF-κB 再度激活——**NO 从抗炎转向促炎，浓度与时相决定其角色**（详见 01-foundations/03-no-basics.md）。eNOS 敲除小鼠呈现更高的炎症负荷与更快的内皮衰老，人体内皮功能障碍（FMD 下降）与 CRP/IL-6 升高平行出现，均支持"NO 生物利用度下降是炎症放大的上游条件"。
 
-### 7.4 中药与天然产物
+**NAD+ 轴把炎症与长寿网络焊在一起**：NAD+ 随龄下降 → SIRT1 活性↓ → p65 K310 乙酰化↑ → NF-κB 转录活性↑ → 炎症↑；SIRT6 同样在 NF-κB 靶基因启动子上去乙酰化 H3K9 以抑制其转录。反过来，NLRP3 激活与 DNA 损伤应答消耗 NAD+（PARP1 每修复一个断裂消耗一个 NAD+）——炎症本身加速 NAD+ 耗竭。动物实验中 NMN/NR 补充降低老年组织炎症标志物并改善代谢。由此形成**"炎症 ↔ 细胞衰老 ↔ NAD+/SIRT ↔ NO"四联互锁环**：提升 NO（运动、膳食硝酸盐）与补充 NAD+ 前体（NMN/NR）可视为"抗炎"的上游策略，而清除衰老细胞则是"断源"策略——两条路线共享同一网络（详见 01-foundations/03-no-basics.md 与 04-drugs/05-molecular-mech.md）。
 
-常用抗炎中药/成分及其证据级别（**多数证据等级低，需谨慎解读**）：
+## 六、干预方向与可执行建议
 
-| 成分/方剂 | 报道机制 | 证据级别 |
-|-----------|----------|----------|
-| 黄芪多糖 | 调节 Treg/Th17 平衡、抑制 NF-κB | 动物实验为主（Ⅲ级） |
-| 姜黄素 | 抑制 NF-κB、NLRP3 | 多项小样本 RCT 显示 CRP 下降；生物利用度问题 |
-| 白藜芦醇 | SIRT1 激活 | 动物明确、人体矛盾；生物利用度极低 |
-| 人参皂苷 Rb1 | 抗炎、抗氧化 | 动物为主（Ⅲ级） |
-| 六味地黄丸/补中益气汤等 | 调节免疫平衡 | 中医理论+小样本（Ⅳ级） |
-| 黄连素（小檗碱） | AMPK 激活、降 IL-6/CRP | 多项 RCT 显示代谢改善伴随炎症下降（Ⅱ级） |
+**第一层：生活方式（证据最强、零副作用，首选）**
+- 规律有氧+抗阻运动（每周 ≥150 分钟中等强度）：降 CRP/IL-6、促 M2 极化、剪切应力激活 eNOS、提升 NO 与 NAD+；
+- 地中海式抗炎饮食：多蔬果、橄榄油、深海鱼（omega-3 每日 1–3 g）、全谷物；限制精制糖与高 AGEs 加工食品（AGEs 经 RAGE 激活 NF-κB）；
+- 热量限制/间歇性禁食：AMPK↑、mTOR↓、自噬↑ → 清除损伤线粒体与衰老细胞，抑制 NLRP3；
+- 睡眠、压力与口腔管理：HPA 轴过度激活与牙周炎（慢性细菌抗原负荷）均为可干预的炎症来源。
 
----
+**第二层：药物级（需医生评估，目标人群=炎症负荷高者）**
+- 低剂量秋水仙碱 0.5 mg/d：冠心病二级预防（LoDoCo2 证据）；
+- 二甲双胍：代谢性抗炎（AMPK/NF-κB 轴），TAME 试验进行中；
+- 他汀：除降脂外直接降低 hsCRP（JUPITER 试验即按 hsCRP 入选）。
 
-## 8. 证据分级汇总
+**第三层：前沿靶向（临床试验阶段）**
+- NLRP3 抑制剂：dapansutrile（OLT1177）——痛风、急性心梗、骨关节炎已进入 2 期；异甘草素（isoliquiritigenin）等天然 NLRP3 抑制剂在巨噬细胞模型与小鼠炎症模型中显示抑制 ASC 组装与 IL-1β 成熟（机制研究表明，人体证据待补）；
+- 抗 IL-1β（canakinumab）：CANTOS 已证概念，但感染风险升高与成本限制了推广；
+- Senolytics（D+Q、fisetin）与 senomorphics（雷帕霉素、二甲双胍）：从源头削减 SASP（详见 04-drugs/03-senolytics.md、04-drugs/04-senomorphics.md）；
+- 肠道菌群干预：益生元、丁酸补充、健康供体粪菌移植（动物有效，人体待验证）。
 
-| 结论 | 证据级别 | 来源类型 |
-|------|----------|----------|
-| 老年人 IL-6/CRP/TNF-α 升高且预测死亡 | Ⅰ级 | 前瞻队列（InCHIANTI、Health ABC 等） |
-| SASP 由 NF-κB/C/EBPβ 驱动 | Ⅰ级 | 分子机制（Coppé 2008 等） |
-| 清除衰老细胞延缓衰老表型 | Ⅰ级（动物） | Baker 2011 *Nature* |
-| mtDNA-cGAS-STING 驱动 SASP | Ⅰ级（动物） | Dou 2018 *Nature*；Victorelli 2021 *Nat Aging* |
-| 抗 IL-1β 降低心血管事件 | Ⅰ级 | CANTOS RCT |
-| 阿司匹林普适预防无获益 | Ⅰ级 | ASPREE RCT |
-| 中药抗炎延寿 | Ⅲ–Ⅳ级 | 小样本/动物 |
-| 酮体抑制 NLRP3 | Ⅱ级 | Youm 2015 *Nat Med* 体外+动物 |
+**明确不推荐**：健康老人常规服用阿司匹林或长期 NSAIDs——ASPREE 阴性且出血/GI/肾毒性明确，无任何延寿证据。
 
----
+**中医视角的补充**：本库贯穿的"益气活血"策略与抗炎存在分子层面的交叉——黄芪多糖、丹参酮等中药成分被机制研究表明可下调 NF-κB 与 NLRP3 活性、抑制 IL-6/TNF-α 分泌，并上调 eNOS/NO 生物利用度；"气虚血瘀"的临床证候（乏力、舌暗、脉涩）与慢性低度炎症状态（高 CRP/IL-6、微循环障碍）高度重叠，提示益气活血方药可能部分经由"恢复 NO→抑制 NF-κB"轴实现抗炎效应（详见 06-tcm/01-yiqi-huoxue.md、06-tcm/02-herbs.md）。此类证据多为机制研究与中小样本临床观察，需更严格 RCT 验证。
 
-## 9. 开放问题
+**监测建议**：每年检测 hsCRP（<1 mg/L 为理想，1–3 为中度，>3 为高危）与纤维蛋白原；有条件者结合 PhenoAge 表观时钟评估"炎症年龄"；IL-6 因昼夜波动大，仅作科研级监测。
 
-1. **inflammaging 是"原因"还是"结果"？** 炎症与衰老互为因果的耦合中，哪个节点是治疗干预的最佳靶点？NF-κB、NLRP3、STING、SASP——靶向哪一层能"逆转"而非仅仅"缓解"？
-2. **能否建立可临床操作的"炎症时钟"？** iAge 等免疫时钟尚未标准化；IL-6/CRP 的组合阈值（多高算"病理"？）缺乏共识，抗炎干预的"启动阈值"是多少？
-3. **抗炎药普适性与个体化**：ASPREE 的阴性 vs CANTOS 的阳性提示"分层抗炎"是出路——但分层生物标志物（hsCRP？IL-6？）的最优组合与成本效益仍未解决。
-4. **慢性炎症是否可逆**：运动/减重/禁食带来的炎症下降能否转化为"表观遗传年龄逆转"？干预后时钟回拨的临床意义有多大？
-5. **SASP 的"好炎症"面**：SASP 在组织修复、免疫监视（清除癌前细胞）中有保护功能——"全盘清除衰老细胞"是否会牺牲这些功能？选择性 senolytics（清除特定类型衰老细胞）是答案吗？
+## 七、开放问题与争议
 
----
+1. **因果方向仍未闭环**：炎症标志物升高究竟是衰老的原因、伴随还是结果？CANTOS（抗 IL-1β 有效）支持因果，ASPREE（广谱抗炎无效）反对简单化——两种结果并存说明"炎症"内部异质性极大，何种炎症、哪个阶段、何种手段决定成败。
+2. **抗炎与免疫监视的平衡**：系统性抑制炎症可能削弱抗肿瘤免疫与抗感染能力（canakinumab 组致死性感染增多、阿司匹林组出血与癌症死亡增多）——"抗炎治疗窗"在哪里？低度炎症在损伤修复与肿瘤监视中仍有生理功能。
+3. **NF-κB 枢纽 vs NLRP3 放大器 vs 源头清除**：三层次靶点孰优孰劣？NF-κB 抑制长期安全性存疑（免疫抑制风险），NLRP3/IL-1β 靶向更特异但覆盖面有限，senolytics 断源但衰老细胞清除的长期后果未知。
+4. **克隆性造血（CHIP）的混杂**：TET2/DNMT3A 突变驱动的克隆性造血随龄常见，既升高炎症（IL-1β）又独立增加心血管风险——是炎症驱动克隆扩增，还是克隆扩增驱动炎症？CANTOS 事后分析显示 canakinumab 对 CHIP 携带者获益更大，提示炎症-造血轴存在双向关系。
+5. **个体异质性与时间窗**：炎症轨迹存在明显个体差异（遗传、性别、肥胖、微生物组），"何时开始抗炎"（中年预防 vs 老年治疗）缺乏直接比较证据。
 
-## 参考文献（精选）
+## 参考文献
 
-1. Franceschi C, et al. Inflamm-aging: An evolutionary perspective on immunosenescence. *Ann N Y Acad Sci*. 2000;908:244-254.
-2. Coppé JP, et al. Senescence-associated secretory phenotype reveals cell-nonautonomous functions of oncogenic RAS and the p53 tumor suppressor. *PLoS Biol*. 2008;6:2853-2868.
-3. Baker DJ, et al. Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders. *Nature*. 2011;479:232-236.
-4. Dou Z, et al. Cytoplasmic chromatin triggers inflammation in senescence and cancer. *Nature*. 2017;550:402-406.（mtDNA/cGAS-STING 相关）
-5. Victorelli S, et al. Apoptotic stress causes mtDNA release during senescence and drives the SASP. *Nature*. 2023;622:627-636.
-6. Cani PD, et al. Metabolic endotoxemia initiates obesity and insulin resistance. *Diabetes*. 2007;56:1761-1772.
-7. Youm YH, et al. The ketone metabolite β-hydroxybutyrate blocks NLRP3 inflammasome-mediated inflammatory disease. *Nat Med*. 2015;21:263-269.
-8. Ridker PM, et al. Antiinflammatory therapy with canakinumab for atherosclerotic disease. *N Engl J Med*. 2017;377:1119-1131.（CANTOS）
-9. McNeil JJ, et al. Effect of aspirin on disability-free survival in the healthy elderly. *N Engl J Med*. 2018;379:1499-1508.（ASPREE）
-10. Ferrucci L, et al. Inflammatory markers and mortality in older persons: the InCHIANTI study. *J Gerontol A Biol Sci Med Sci*. 2005;60:878-884.
-11. Franceschi C, et al. Inflammaging: A new immune-metabolic viewpoint for age-related diseases. *Nat Rev Endocrinol*. 2018;14:576-590.
+1. Franceschi C, Bonafè M, Valensin S, et al. Inflamm-aging. An evolutionary perspective on immunosenescence. *Ann N Y Acad Sci*. 2000;908:244-254.
+2. Franceschi C, Campisi J. Chronic inflammation (inflammaging) and its potential contribution to age-associated diseases. *J Gerontol A Biol Sci Med Sci*. 2014;69 Suppl 1:S4-S9.
+3. López-Otín C, Blasco MA, Partridge L, Serrano M, Kroemer G. Hallmarks of aging: An expanding universe. *Cell*. 2023;186(2):243-278.
+4. Ferrucci L, et al. Serum IL-6 level and the development of disability in older persons. *J Am Geriatr Soc*. 1999;47(6):639-646. ／ Ferrucci L, et al. Inflammatory markers and the risk of mobility limitation in the elderly (InCHIANTI). *J Gerontol A Biol Sci Med Sci*. 2005;60(6):729-735.
+5. Cohen HJ, et al. The association of plasma IL-6 levels with functional disability in community-dwelling elderly. *J Gerontol A Biol Sci Med Sci*. 1997;52(4):M201-M208.
+6. Ridker PM, et al. Antiinflammatory therapy with canakinumab for atherosclerotic disease. *N Engl J Med*. 2017;377(12):1119-1131.
+7. McNeil JJ, et al. Effect of aspirin on disability-free survival in the healthy elderly (ASPREE). *N Engl J Med*. 2018;379(16):1519-1528. ／ McNeil JJ, et al. Effect of aspirin on all-cause mortality in the healthy elderly. *JAMA*. 2019;321(4):385-394.
+8. Nidorf SM, et al. Colchicine in patients with chronic coronary disease (LoDoCo2). *N Engl J Med*. 2020;383(19):1838-1847.
+9. Baker DJ, et al. Naturally occurring p16(Ink4a)-positive cells shorten healthy lifespan. *Nature*. 2016;530(7589):184-189.
+10. Hickson LJ, et al. Senolytics decrease senescent cells in humans: Preliminary report from a clinical trial of dasatinib plus quercetin in individuals with diabetic kidney disease. *EBioMedicine*. 2019;47:446-456.
+11. Muñoz-Planillo R, et al. K⁺ efflux is the common trigger of NLRP3 inflammasome activation by bacterial toxins and particulate matter. *J Immunol*. 2013;190(7):3528-3536.
+12. He Y, et al. NEK7 is an essential mediator of NLRP3 activation downstream of potassium efflux. *Nature*. 2016;530(7590):354-357.
+13. Shi J, et al. Cleavage of GSDMD by inflammatory caspases determines pyroptotic cell death. *Nature*. 2015;526(7575):660-665.
+14. Shimada K, et al. Oxidized mitochondrial DNA activates the NLRP3 inflammasome during apoptosis. *Immunity*. 2012;36(3):401-414.
+15. Dou Z, et al. Cytoplasmic chromatin triggers inflammation in senescence and cancer. *Nature*. 2017;550(7676):402-406.
+16. Cani PD, et al. Metabolic endotoxemia initiates obesity and insulin resistance. *Diabetes*. 2007;56(7):1761-1772.
+17. Hotamisligil GS, Shargill NS, Spiegelman BM. Adipose expression of tumor necrosis factor-α: Direct role in obesity-linked insulin resistance. *Science*. 1993;259(5091):87-91.
+18. Reynaert NL, et al. Nitric oxide represses inhibitory κB kinase through S-nitrosylation. *Proc Natl Acad Sci USA*. 2004;101(24):8945-8950.
+19. Yeung F, et al. Modulation of NF-κB-dependent transcription and cell survival by the SIRT1 deacetylase. *EMBO J*. 2004;23(12):2369-2380.
+20. Levine ME, et al. An epigenetic biomarker of aging for lifespan and healthspan. *Aging (Albany NY)*. 2018;10(4):573-591.
