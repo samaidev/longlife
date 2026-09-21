@@ -31,6 +31,7 @@
 | [22-核糖体](22-ribosome.md) | 80S 核糖体 | 4V6X/5AJ0 | 核酶催化、A/P/E 流水线、合成-降解天平 |
 | [23-Hsp70](23-hsp70.md) | Hsp70 分子伴侣 | 1DKG/2KHO | ATP 马达、抓-放循环、折叠救援队 |
 | [24-PINK1/Parkin](24-pink1-parkin.md) | PINK1/Parkin | 6EQI/5N2W | 泛素激酶、pUb 解锁、线粒体质检 |
+| [25-HSF1](25-hsf1.md) | HSF1 热休克因子 | 5HDN/2LDU | 三聚体、HSE 识别、应激总指挥 |
 
 ## 核心洞察
 
