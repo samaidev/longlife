@@ -33,6 +33,7 @@
 | [24-PINK1/Parkin](24-pink1-parkin.md) | PINK1/Parkin | 6EQI/5N2W | 泛素激酶、pUb 解锁、线粒体质检 |
 | [25-HSF1](25-hsf1.md) | HSF1 热休克因子 | 5HDN/2LDU | 三聚体、HSE 识别、应激总指挥 |
 | [26-Klotho](26-klotho.md) | α-Klotho | 5W21 | KL1/KL2 马蹄支架、FGF23 共受体、长寿蛋白 |
+| [27-ULK1](27-ulk1.md) | ULK1 激酶 | 4WNO/4WNP | 自噬启动按钮、AMPK/mTOR 拔河、级联放大 |
 
 ## 核心洞察
 
