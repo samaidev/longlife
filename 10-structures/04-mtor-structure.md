@@ -122,6 +122,18 @@ mTORC1 的溶酶体表面激活（Rheb-GTP + Rag 异二聚体）涉及两个 GTP
 - Rheb-GTP 与 mTOR 激酶域的 N 叶结合，**稳定"开放"的底物通道构象**——"Rheb 把门推开"；
 - TSC1/2 复合物（Rheb 的 GAP）使 Rheb 水解 GTP 为 GDP → Rheb 失活 → 门重新关闭——**TSC1/2 是"关门"的刹车**。
 
+### 5.1a GTPase 开关的"分子时钟"：Rheb 与 Rag 如何协同
+
+理解 mTORC1 的溶酶体激活，需要把握两个 GTPase 的"分子时钟"逻辑——它们各自走一个 GTP 结合/水解循环，但角色不同：
+
+**Rheb 的"门闩"角色**：Rheb 结合 GTP 时（Rheb-GTP），其 Switch I/II 区域呈"闭合激活"构象，能插入 mTOR 激酶域 N 叶的疏水槽，稳定"底物通道开放"的构象。Rheb 的 GTP 水解速率极慢（内在 GTPase 活性低），一旦装载 GTP 就"赖在"激活态——**Rheb 是"常开型门闩"，只需 TSC1/2 把它"按下去"（GAP 激活 GTP 水解）才能关门**。TSC1/2 因此是 mTORC1 的"总闸"：生长因子信号经 Akt 磷酸化 TSC2 → TSC 失活 → Rheb 保持 GTP → 门保持开放。
+
+**Rag 的"定位"角色**：RagA/B-RagC/D 异二聚体不像 Rheb 那样直接"推门"，而是决定 **mTORC1 是否"到场"**（溶酶体表面）。RagA/B 结合 GTP（RagC/D 结合 GDP）时，Rag 二聚体呈"招募态"——与溶酶体膜上的 Ragulator 复合物结合，把 mTORC1（经 Raptor 与 Rag 互作）拉到溶酶体表面。**氨基酸充足（亮氨酸经 Sestrin2→GATOR2）→ RagA/B 装载 GTP → mTORC1 上溶酶体 → 与 Rheb 会合**——"Rag 管到场、Rheb 管开门"。
+
+**"双钥匙"逻辑**：mTORC1 激活需要"两个条件同时满足"——①生长因子/能量信号（决定 Rheb-GTP，门闩是否打开）；②氨基酸信号（决定 Rag-GTP，复合物是否到场）。**任一条件缺失，mTORC1 都无法激活**——这是"营养 + 生长因子双控"的结构设计（"双钥匙锁"），也是为什么雷帕霉素（堵门）与氨基酸饥饿（不到场）能协同抑制 mTORC1。
+
+**溶酶体膜作为"信号平台"**：溶酶体表面聚集了 mTORC1 激活所需的所有元件（Ragulator、Rheb、v-ATPase 等）——溶酶体不只是"垃圾处理站"，更是"营养信号平台"（这是 2017 年后 mTOR 领域的范式转变，呼应 [04-mtor-rapamycin](../04-drugs/06-mtor-rapamycin.md) 的溶酶体通路讨论）。
+
 ### 5.2 Rag GTPase：溶酶体锚定
 
 - RagA/B-RagC/D 异二聚体（GTP 装载状态决定活性）把 mTORC1 招募到溶酶体表面（经 Ragulator 复合物）；
