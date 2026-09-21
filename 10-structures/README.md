@@ -20,6 +20,7 @@
 | [11-端粒酶](11-telomerase-structure.md) | TERT | 6D6V/5CQG | 四域缝纫机、转位循环、双刃剑 |
 | [12-复合物 I](12-complex1-structure.md) | 复合物 I | 5XTD/6G2J | L 形巨无霸、FeS 电子链、ROS 主源 |
 | [13-p53](13-p53-structure.md) | p53 | 1TUP/2OCJ | 三指夹 DNA、锌指环、卫士双面性 |
+| [14-NF-κB](14-nfkb-structure.md) | NF-κB | 1NFK/2RAM | 二聚体钳、IκB 扣留、炎症主开关 |
 
 ## 核心洞察
 
