@@ -38,6 +38,7 @@
 | [29-V-ATPase](29-v-atpase.md) | V-ATPase | 6WM3/6WLW | 旋转马达、c 环质子泵、溶酶体酸化 |
 | [30-cGAS-STING](30-cgas-sting.md) | cGAS/STING | 4O6A/6NT5 | DNA 传感器、cGAMP 信使、炎症警报轴 |
 | [31-IRE1/UPR](31-ire1.md) | IRE1 | 2RIO/2HZ6 | 双酶融合、XBP1 剪接、ER 质检警报 |
+| [32-γ-分泌酶](32-gamma-secretase.md) | γ-secretase | 5A63/5FN5 | 膜内蛋白酶、Aβ 剪刀、AD 靶点 |
 
 ## 核心洞察
 

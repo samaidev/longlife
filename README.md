@@ -136,6 +136,7 @@
 - [29-V-ATPase 与溶酶体酸化](10-structures/29-v-atpase.md)
 - [30-cGAS-STING 与 DNA 警报轴](10-structures/30-cgas-sting.md)
 - [31-IRE1 与内质网质检](10-structures/31-ire1.md)
+- [32-γ-分泌酶与 Aβ 剪刀](10-structures/32-gamma-secretase.md)
 
 ---
 
@@ -171,7 +172,7 @@
 - 干预方向与开放问题
 - 真实参考文献（10-40 条/篇）
 
-**2026-09-21 里程碑二：新增 10-structures 分子结构深潜专题（31 篇）**
+**2026-09-21 里程碑二：新增 10-structures 分子结构深潜专题（32 篇）**
 - 以 RCSB PDB 已验证晶体结构为锚点（3NOS/4NOS/3UVJ/4CFE/4ZHX/4JSN/5FLC/4NM6），从"通路级"升级到"结构级"
 - NOS：血红素 Cys184 近端、BH4 π 堆叠、Glu361 精氨酸锚点、Zn²⁺ 四硫醇二聚界面、解偶联原子级解释
 - sGC：H-NOX 五配位血红素（His105）、NO 结合→His 解离→26° 旋转、Fe³⁺ 氧化失聪
