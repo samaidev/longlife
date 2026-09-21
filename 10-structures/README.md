@@ -13,6 +13,7 @@
 | [04-mTORC1](04-mtor-structure.md) | mTORC1 | 4JSN/5FLC | 深埋活性位点、FRB 门卫、雷帕霉素堵门 |
 | [05-TET/DNA 去甲基化](05-tet-dna.md) | TET2 | 4NM6 | Fe-2OG 活性中心、5mC 翻转、三步氧化 |
 | [06-SIRT1](06-sirt1-structure.md) | SIRT1 | 4I5I/4ZZJ | NAD⁺ 依赖催化、烟酰胺反馈、STAC 变构争议 |
+| [07-DNMT1](07-dnmt1-structure.md) | DNMT1 | 3PTA/4DA4 | 双锁自抑制、Cys1226 催化、5-Aza 自杀底物 |
 
 ## 核心洞察
 
