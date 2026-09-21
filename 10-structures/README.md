@@ -28,6 +28,7 @@
 | [19-NLRP3](19-nlrp3-inflammasome.md) | NLRP3 炎症小体 | 6NPY/3J63 | NEK7 许可、ASC 螺旋纤维、炎症警报器 |
 | [20-蛋白酶体](20-proteasome.md) | 20S 蛋白酶体 | 1RYP/4R3O | 桶状腔室、α 门控、β 三刀、粉碎机 |
 | [21-胰岛素受体](21-insulin-receptor.md) | 胰岛素受体 | 4ZXB/3E7Y | Λ 形折叠、夹心结合、代谢总入口 |
+| [22-核糖体](22-ribosome.md) | 80S 核糖体 | 4V6X/5AJ0 | 核酶催化、A/P/E 流水线、合成-降解天平 |
 
 ## 核心洞察
 
