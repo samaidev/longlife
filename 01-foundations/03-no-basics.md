@@ -207,6 +207,8 @@ pM ── nM ────── nM–μM ────────── μM ─�
 
 **方法学陷阱**：Griess 法无法区分亚硝酸盐与硝酸盐来源（饮食硝酸盐、肠菌、肾排泄均影响 NOx），需禁硝酸盐饮食后采样并加硝酸还原酶；化学发光需严格除氧与防止样品自发氧化；EPR 的 spin trap 选择与定量曲线建立是主要误差来源。**三种方法测得的都不是同一对象**——Griess 测代谢累积、化学发光测即时 NO、EPR 测自由基本体，解读结果时必须标明检测目标。
 
+**临床常用替代指标**：①呼出气 NO（FeNO）——气道炎症标志物，哮喘诊断与监测的标准工具（ATS/ERS 指南）；②血浆亚硝酸盐——经严格禁硝酸盐饮食后采样的血浆亚硝酸盐可粗略反映内皮 NO 生成；③FMD（血流介导舒张）——超声测量内皮依赖的血管扩张功能，是"NO 功能"的金标准无创读数（详见 02-vascular/01-no-cardiovascular.md 第 7.1 节）；④尿硝酸盐排泄——反映全身 NO 合成的整合水平。这些替代指标各有适用场景与局限，联合使用可互补。
+
 ---
 
 ## 6. 证据分级与开放问题
@@ -231,6 +233,14 @@ pM ── nM ────── nM–μM ────────── μM ─�
 ## 7. 与 NAD+/SIRT1 长寿网络的耦合
 
 NO 并非孤立信号：NAD+/SIRT1 去乙酰化激活 eNOS → NO 生成↑；NO 又经 cGMP/AMPK 通路上调 SIRT1 → 构成长寿正反馈环（详见 04）。内皮 NO 生物利用度下降是血管衰老的早期标志，也是连接代谢、免疫与血管健康的中枢枢纽。
+
+### 7.1 NO 与表观遗传：S-亚硝基化对基因表达的长期塑造
+
+NO 不仅能快速改变蛋白活性，还能通过表观遗传机制对基因表达产生持续影响：组蛋白去乙酰化酶（HDAC2）可被 S-亚硝基化抑制，从而改变组蛋白乙酰化水平、开放特定基因位点的染色质；DNA 甲基转移酶（DNMT）的活性也受 NO 调控——高浓度 NO 抑制 DNMT、低浓度则维持其功能。这意味着**慢性 NO 状态（充足 vs 耗竭）会留下表观遗传印记**，部分解释了为何长期运动/饮食模式带来的血管保护具有"记忆效应"。
+
+### 7.2 NO 与昼夜节律：eNOS 活性的日节律波动
+
+eNOS 表达与 NO 生成呈昼夜节律波动，峰值出现在清晨前后（与皮质醇节律协同），夜间 NO 生成下降。这一节律的意义在于：**心血管事件（心梗、卒中）的清晨高发与 NO 的清晨低谷部分相关**——晨起时交感激活、血压晨峰与 NO 生成尚未完全跟上形成"易损窗口"。节律紊乱（轮班、睡眠剥夺）通过破坏 eNOS 节律放大心血管风险，也再次说明"睡眠是 NO 通路的时间基础"（与 07-interventions/05-sleep-optimization.md 呼应）。
 
 **参考文献**：Alderton WK et al. *Biochem J* 2001 (NOS 综述)；Raman CS et al. *PNAS* 1998 (eNOS 结构)；Moncada S, Higgs A. *N Engl J Med* 1993 (NO 生物学)；Forstermann U, Sessa WC. *Eur Heart J* 2012 (eNOS 与心血管)；Foster MW et al. *Trends Mol Med* 2003 (S-亚硝基化)；Pacher P et al. *Physiol Rev* 2007 (ONOO⁻)；Brown GC, Borutaite V. *Free Radic Biol Med* 2002 (NO 与线粒体)；Stamler JS et al. *Cell* 1994 (S-亚硝基化)；Palmer RMJ et al. *Nature* 1988 (L-精氨酸为 NO 前体)；Bredt DS, Snyder SH. *PNAS* 1990 (nNOS 克隆)；Vallance P et al. *Lancet* 1992 (ADMA 发现)；Lundberg JO, Weitzberg E. *Cell Metab* 2022 (硝酸盐-亚硝酸盐-NO 通路综述)。
 
