@@ -27,6 +27,7 @@
 | [18-LC3/自噬](18-lc3-autophagy.md) | LC3/ATG8 | 1UGM/2ZJD | 泛素样核心、LIR 疏水口袋、垃圾回收站 |
 | [19-NLRP3](19-nlrp3-inflammasome.md) | NLRP3 炎症小体 | 6NPY/3J63 | NEK7 许可、ASC 螺旋纤维、炎症警报器 |
 | [20-蛋白酶体](20-proteasome.md) | 20S 蛋白酶体 | 1RYP/4R3O | 桶状腔室、α 门控、β 三刀、粉碎机 |
+| [21-胰岛素受体](21-insulin-receptor.md) | 胰岛素受体 | 4ZXB/3E7Y | Λ 形折叠、夹心结合、代谢总入口 |
 
 ## 核心洞察
 
