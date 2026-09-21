@@ -139,6 +139,7 @@
 - [32-γ-分泌酶与 Aβ 剪刀](10-structures/32-gamma-secretase.md)
 - [33-SIRT6 与基因组卫士](10-structures/33-sirt6-structure.md)
 - [34-SIRT3 与线粒体总开关](10-structures/34-sirt3-structure.md)
+- [35-TFAM 与线粒体蓝图](10-structures/35-tfam-structure.md)
 
 ---
 
@@ -174,7 +175,7 @@
 - 干预方向与开放问题
 - 真实参考文献（10-40 条/篇）
 
-**2026-09-21 里程碑二：新增 10-structures 分子结构深潜专题（34 篇）**
+**2026-09-21 里程碑二：新增 10-structures 分子结构深潜专题（35 篇）**
 - 以 RCSB PDB 已验证晶体结构为锚点（3NOS/4NOS/3UVJ/4CFE/4ZHX/4JSN/5FLC/4NM6），从"通路级"升级到"结构级"
 - NOS：血红素 Cys184 近端、BH4 π 堆叠、Glu361 精氨酸锚点、Zn²⁺ 四硫醇二聚界面、解偶联原子级解释
 - sGC：H-NOX 五配位血红素（His105）、NO 结合→His 解离→26° 旋转、Fe³⁺ 氧化失聪

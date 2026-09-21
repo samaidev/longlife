@@ -41,6 +41,7 @@
 | [32-γ-分泌酶](32-gamma-secretase.md) | γ-secretase | 5A63/5FN5 | 膜内蛋白酶、Aβ 剪刀、AD 靶点 |
 | [33-SIRT6](33-sirt6-structure.md) | SIRT6 | 3K35/3ZG6 | NAD⁺ 去酰化酶、基因组卫士、长寿基因 |
 | [34-SIRT3](34-sirt3-structure.md) | SIRT3 | 4BN4/4FVT | 线粒体去乙酰化酶、能量总开关、抗氧化队长 |
+| [35-TFAM](35-tfam-structure.md) | TFAM | 3TMM/3TQ6 | mtDNA 组蛋白、U-turn 弯折、蓝图守护者 |
 
 ## 核心洞察
 
