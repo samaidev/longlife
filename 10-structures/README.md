@@ -3,6 +3,24 @@
 > **专题定位**：把知识库从"通路级"升级到"结构级"——以 PDB 晶体结构/冷冻电镜数据为锚点，解剖核心靶点蛋白的三维结构、活性位点原子细节、结合口袋与构象变化。每篇回答"机制如何在原子层面发生"。
 > **主线衔接**：本专题与知识库全部板块交叉引用，是 NO/NAD⁺/mTOR/TET 等主线的"结构底座"。
 
+## 篇目索引
+
+| 篇目 | 靶点 | PDB 锚点 | 核心结构主题 |
+|---|---|---|---|
+| [01-NOS 家族](01-nos-structures.md) | eNOS/iNOS/nNOS | 3NOS/4NOS | 血红素-BH4-精氨酸口袋、解偶联、二聚界面 |
+| [02-sGC/H-NOX](02-sgc-heme.md) | sGC | 3UVJ | 五配位血红素、NO 感知、Fe³⁺ 失聪 |
+| [03-AMPK](03-ampk-structure.md) | AMPK | 4CFE/4ZHX | 三聚体、γ CBS 位点、ADaM 变构 |
+| [04-mTORC1](04-mtor-structure.md) | mTORC1 | 4JSN/5FLC | 深埋活性位点、FRB 门卫、雷帕霉素堵门 |
+| [05-TET/DNA 去甲基化](05-tet-dna.md) | TET2 | 4NM6 | Fe-2OG 活性中心、5mC 翻转、三步氧化 |
+| [06-SIRT1](06-sirt1-structure.md) | SIRT1 | 4I5I/4ZZJ | NAD⁺ 依赖催化、烟酰胺反馈、STAC 变构争议 |
+
+## 核心洞察
+
+1. **结构是机制的最终证据**：每个靶点的功能描述都有 PDB 坐标支撑（原子间距离、口袋形状、构象变化）；
+2. **"口袋即靶点"**：药物设计（Rentosertib/STAC/雷帕霉素）的本质是"填补/堵住/稳定特定口袋"；
+3. **氧化还原敏感位点**：NOS（BH4/Zn²⁺）、sGC（Fe²⁺）、SIRT1（Zn²⁺ 3Cys+1His）、TET（Fe(II)）都有氧化敏感核心——衰老氧化应激的攻击靶点；
+4. **主线交汇**：SIRT1-eNOS-NO 轴（NO 主线 × NAD⁺ 主线）、AMPK-mTOR 对抗（代谢主线）、TET-重编程（表观主线）。
+
 ## 📚 目录
 
 - [01-一氧化氮合酶（NOS）家族三维结构](01-nos-structures.md)
