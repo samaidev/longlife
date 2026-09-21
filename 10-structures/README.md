@@ -42,6 +42,7 @@
 | [33-SIRT6](33-sirt6-structure.md) | SIRT6 | 3K35/3ZG6 | NAD⁺ 去酰化酶、基因组卫士、长寿基因 |
 | [34-SIRT3](34-sirt3-structure.md) | SIRT3 | 4BN4/4FVT | 线粒体去乙酰化酶、能量总开关、抗氧化队长 |
 | [35-TFAM](35-tfam-structure.md) | TFAM | 3TMM/3TQ6 | mtDNA 组蛋白、U-turn 弯折、蓝图守护者 |
+| [36-BACE1](36-bace1-structure.md) | BACE1 | 1W50/2B8L | β-分泌酶、淀粉样第一刀、AD 靶点之王 |
 
 ## 核心洞察
 
