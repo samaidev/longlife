@@ -44,6 +44,7 @@
 | [35-TFAM](35-tfam-structure.md) | TFAM | 3TMM/3TQ6 | mtDNA 组蛋白、U-turn 弯折、蓝图守护者 |
 | [36-BACE1](36-bace1-structure.md) | BACE1 | 1W50/2B8L | β-分泌酶、淀粉样第一刀、AD 靶点之王 |
 | [37-Hsp90](37-hsp90.md) | Hsp90 | 1BYQ/2CG9 | ATP 折叠机器、VIP 托管、双刃靶点 |
+| [38-ATP合酶](38-atp-synthase.md) | ATP合酶 | 1E79/5ARA | 旋转马达、质子→ATP、线粒体总装线 |
 
 ## 核心洞察
 
