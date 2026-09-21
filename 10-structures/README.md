@@ -15,6 +15,7 @@
 | [06-SIRT1](06-sirt1-structure.md) | SIRT1 | 4I5I/4ZZJ | NAD⁺ 依赖催化、烟酰胺反馈、STAC 变构争议 |
 | [07-DNMT1](07-dnmt1-structure.md) | DNMT1 | 3PTA/4DA4 | 双锁自抑制、Cys1226 催化、5-Aza 自杀底物 |
 | [08-CD38](08-cd38-structure.md) | CD38 | 3DZF | Glu226 共价催化、NAD⁺ 漏斗、三端经济 |
+| [09-PARP1](09-parp1-structure.md) | PARP1 | 4DQY | 三锌指损伤感知、失稳激活、修复-消耗权衡 |
 
 ## 核心洞察
 
