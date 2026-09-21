@@ -34,6 +34,7 @@
 | [25-HSF1](25-hsf1.md) | HSF1 热休克因子 | 5HDN/2LDU | 三聚体、HSE 识别、应激总指挥 |
 | [26-Klotho](26-klotho.md) | α-Klotho | 5W21 | KL1/KL2 马蹄支架、FGF23 共受体、长寿蛋白 |
 | [27-ULK1](27-ulk1.md) | ULK1 激酶 | 4WNO/4WNP | 自噬启动按钮、AMPK/mTOR 拔河、级联放大 |
+| [28-TFEB](28-tfeb.md) | TFEB/MiT-TFE | 6FX5/6FX7 | bHLH-LZ、CLEAR 元件、溶酶体厂长 |
 
 ## 核心洞察
 
