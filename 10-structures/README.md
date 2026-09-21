@@ -30,6 +30,7 @@
 | [21-胰岛素受体](21-insulin-receptor.md) | 胰岛素受体 | 4ZXB/3E7Y | Λ 形折叠、夹心结合、代谢总入口 |
 | [22-核糖体](22-ribosome.md) | 80S 核糖体 | 4V6X/5AJ0 | 核酶催化、A/P/E 流水线、合成-降解天平 |
 | [23-Hsp70](23-hsp70.md) | Hsp70 分子伴侣 | 1DKG/2KHO | ATP 马达、抓-放循环、折叠救援队 |
+| [24-PINK1/Parkin](24-pink1-parkin.md) | PINK1/Parkin | 6EQI/5N2W | 泛素激酶、pUb 解锁、线粒体质检 |
 
 ## 核心洞察
 
