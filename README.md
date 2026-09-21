@@ -122,6 +122,7 @@
 - [15-Nrf2/KEAP1 与抗氧化开关](10-structures/15-nrf2-structure.md)
 - [16-FOXO3 与长寿基因](10-structures/16-foxo3-structure.md)
 - [17-GLP-1R 与代谢抗衰](10-structures/17-glp1r-structure.md)
+- [18-LC3 与细胞垃圾回收](10-structures/18-lc3-autophagy.md)
 
 ---
 
@@ -157,7 +158,7 @@
 - 干预方向与开放问题
 - 真实参考文献（10-40 条/篇）
 
-**2026-09-21 里程碑二：新增 10-structures 分子结构深潜专题（17 篇）**
+**2026-09-21 里程碑二：新增 10-structures 分子结构深潜专题（18 篇）**
 - 以 RCSB PDB 已验证晶体结构为锚点（3NOS/4NOS/3UVJ/4CFE/4ZHX/4JSN/5FLC/4NM6），从"通路级"升级到"结构级"
 - NOS：血红素 Cys184 近端、BH4 π 堆叠、Glu361 精氨酸锚点、Zn²⁺ 四硫醇二聚界面、解偶联原子级解释
 - sGC：H-NOX 五配位血红素（His105）、NO 结合→His 解离→26° 旋转、Fe³⁺ 氧化失聪

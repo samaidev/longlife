@@ -24,6 +24,7 @@
 | [15-Nrf2/KEAP1](15-nrf2-structure.md) | Nrf2/KEAP1 | 2FLU/3WN7 | 铰链-门闩、Cys 开关、抗氧化主开关 |
 | [16-FOXO3](16-foxo3-structure.md) | FOXO3 | 3L2C/2UZK | 翼状螺旋读 DNA、PTM 编码命运、长寿基因 |
 | [17-GLP-1R](17-glp1r-structure.md) | GLP-1 受体 | 6B3J/6ORV | 捕蝇草捕获、两段式激活、偏倚激动、代谢抗衰 |
+| [18-LC3/自噬](18-lc3-autophagy.md) | LC3/ATG8 | 1UGM/2ZJD | 泛素样核心、LIR 疏水口袋、垃圾回收站 |
 
 ## 核心洞察
 
