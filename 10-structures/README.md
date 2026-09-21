@@ -17,6 +17,7 @@
 | [08-CD38](08-cd38-structure.md) | CD38 | 3DZF | Glu226 共价催化、NAD⁺ 漏斗、三端经济 |
 | [09-PARP1](09-parp1-structure.md) | PARP1 | 4DQY | 三锌指损伤感知、失稳激活、修复-消耗权衡 |
 | [10-NAMPT](10-nampt-structure.md) | NAMPT | 2GVG/2H3D | 二聚体隧道、Asp219 分子尺、四端闭环 |
+| [11-端粒酶](11-telomerase-structure.md) | TERT | 6D6V/5CQG | 四域缝纫机、转位循环、双刃剑 |
 
 ## 核心洞察
 
