@@ -16,6 +16,7 @@
 | [07-DNMT1](07-dnmt1-structure.md) | DNMT1 | 3PTA/4DA4 | 双锁自抑制、Cys1226 催化、5-Aza 自杀底物 |
 | [08-CD38](08-cd38-structure.md) | CD38 | 3DZF | Glu226 共价催化、NAD⁺ 漏斗、三端经济 |
 | [09-PARP1](09-parp1-structure.md) | PARP1 | 4DQY | 三锌指损伤感知、失稳激活、修复-消耗权衡 |
+| [10-NAMPT](10-nampt-structure.md) | NAMPT | 2GVG/2H3D | 二聚体隧道、Asp219 分子尺、四端闭环 |
 
 ## 核心洞察
 
