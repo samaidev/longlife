@@ -154,6 +154,7 @@
 - [47-NPC1L1 与胆固醇吸收闸门](10-structures/47-npc1l1.md)
 - [48-CETP 与胆固醇转运通道](10-structures/48-cetp.md)
 - [49-ApoA1 与胆固醇逆转运载体](10-structures/49-apoa1.md)
+- [50-LDLR 与胆固醇清除执行器](10-structures/50-ldlr.md)
 
 ---
 
@@ -189,7 +190,7 @@
 - 干预方向与开放问题
 - 真实参考文献（10-40 条/篇）
 
-**2026-09-21 里程碑二：新增 10-structures 分子结构深潜专题（49 篇）**
+**2026-09-21 里程碑二：新增 10-structures 分子结构深潜专题（50 篇）**
 - 以 RCSB PDB 已验证晶体结构为锚点（3NOS/4NOS/3UVJ/4CFE/4ZHX/4JSN/5FLC/4NM6），从"通路级"升级到"结构级"
 - NOS：血红素 Cys184 近端、BH4 π 堆叠、Glu361 精氨酸锚点、Zn²⁺ 四硫醇二聚界面、解偶联原子级解释
 - sGC：H-NOX 五配位血红素（His105）、NO 结合→His 解离→26° 旋转、Fe³⁺ 氧化失聪

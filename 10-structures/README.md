@@ -56,6 +56,7 @@
 | [47-NPC1L1](47-npc1l1.md) | NPC1L1 | 6V3H | 胆固醇吸收、TMD 通道、依折麦布靶点 |
 | [48-CETP](48-cetp.md) | CETP | 2OBD | 胆固醇酯转运、长隧道、HDL/LDL 平衡手 |
 | [49-ApoA1](49-apoa1.md) | ApoA1 | 1AV1 | 两性螺旋、HDL 组装、胆固醇逆转运载体 |
+| [50-LDLR](50-ldlr.md) | LDLR | 1N7D/1AJJ | LDL 内吞、pH 释放、PCSK9 靶点、清除执行器 |
 
 ## 核心洞察
 
