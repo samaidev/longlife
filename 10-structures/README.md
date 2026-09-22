@@ -51,6 +51,7 @@
 | [42-COX-2](42-cox2.md) | PTGS2 | 5KIR/3LN1 | 前列腺素合成、侧袋选择性、炎症衰老点火器 |
 | [43-cPLA2α](43-cpla2.md) | PLA2G4A | 1CJY/1RLW | 钙激活、膜锚定、sn-2 水解、AA 经济总阀 |
 | [44-sEH](44-seh.md) | EPHX2 | 1VJ5/3I28 | EET 水解失活、尿素类抑制剂、AA 保护路闸门 |
+| [45-HMGCR](45-hmgcr.md) | HMGCR | 1DQ8/1HWK | 胆固醇限速酶、他汀靶点、NADPH 双氢还原 |
 
 ## 核心洞察
 
