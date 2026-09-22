@@ -53,6 +53,7 @@
 | [44-sEH](44-seh.md) | EPHX2 | 1VJ5/3I28 | EET 水解失活、尿素类抑制剂、AA 保护路闸门 |
 | [45-HMGCR](45-hmgcr.md) | HMGCR | 1DQ8/1HWK | 胆固醇限速酶、他汀靶点、NADPH 双氢还原 |
 | [46-PCSK9](46-pcsk9.md) | PCSK9 | 2P4E/2PMW | LDLR 降解、界面结合、单抗/siRNA 降脂 |
+| [47-NPC1L1](47-npc1l1.md) | NPC1L1 | 6V3H | 胆固醇吸收、TMD 通道、依折麦布靶点 |
 
 ## 核心洞察
 
