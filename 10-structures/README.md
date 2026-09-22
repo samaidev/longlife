@@ -55,6 +55,7 @@
 | [46-PCSK9](46-pcsk9.md) | PCSK9 | 2P4E/2PMW | LDLR 降解、界面结合、单抗/siRNA 降脂 |
 | [47-NPC1L1](47-npc1l1.md) | NPC1L1 | 6V3H | 胆固醇吸收、TMD 通道、依折麦布靶点 |
 | [48-CETP](48-cetp.md) | CETP | 2OBD | 胆固醇酯转运、长隧道、HDL/LDL 平衡手 |
+| [49-ApoA1](49-apoa1.md) | ApoA1 | 1AV1 | 两性螺旋、HDL 组装、胆固醇逆转运载体 |
 
 ## 核心洞察
 
