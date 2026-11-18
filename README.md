@@ -2,6 +2,8 @@
 
 > 面向"延长健康寿命（healthspan）"的系统化科学研究笔记。**树状分类结构，可扩展、可检索。**
 
+> **Languages / 语言：** [English index](en/README.md) · [中文](README.md)
+
 ## 📚 知识库目录（点击直达）
 
 ### 01 · 基础理论 Foundations
