@@ -13,11 +13,11 @@ Newly synthesized proteins expose hydrophobic residues in an unfolded state in t
 Aging makes the folding network bear the brunt: HSF-1 (heat shock transcription factor 1) activity decreases with age, leading to a decrease in Hsp70/Hsp90/Hsp40 transcription; at the same time, aggregates absorb a large number of chaperone proteins through a "sponge effect", further depleting the available chaperone pool (sequestration), forming a vicious cycle.
 
 ```
-   核糖体出口 ──> Hsp40/Hsp70 ──> Hsp90 ──> 天然构象
-                     │  (ADP态高亲和)      │失败
-                     │ 重折叠尝试          ▼
-                     └────────── CHIP(Hsp70/E3) ──> K48-多聚泛素链 ──> 26S蛋白酶体
-                     （折叠-降解分流决策节点）
+   Ribosome exit ──> Hsp40/Hsp70 ──> Hsp90 ──> Native conformation
+                     │  (ADP state high affinity)   │ failure
+                     │ refolding attempt            ▼
+                     └────────── CHIP(Hsp70/E3) ──> K48-polyubiquitin chain ──> 26S proteasome
+                     (folding-degradation triage decision node)
 ```
 
 ### 2. Degradation channel one: Ubiquitin-proteasome system (UPS)
@@ -35,21 +35,21 @@ Autophagy handles cargo that is difficult for UPS to reach: protein aggregates, 
 **Molecular cascade (core chain) of macroautophagy**:
 
 ```
-营养充足: mTORC1 --磷酸化--> ULK1(Ser757) ──抑制──┐
+Nutrient-rich: mTORC1 --phosphorylates--> ULK1(Ser757) ──inhibits──┐
                                                 ▼
-能量不足/应激: AMPK --磷酸化--> ULK1(Ser317/777) ──激活──> ULK1复合体
+Energy-low/stress: AMPK --phosphorylates--> ULK1(Ser317/777) ──activates──> ULK1 complex
                                              (ULK1-FIP200-ATG13-ATG101)
-                                                │ 成核
+                                                │ nucleation
                                                 ▼
-                                Beclin1-VPS34-VPS15-ATG14L (产生PI3P)
-                                                │ 膜延伸
+                                Beclin1-VPS34-VPS15-ATG14L (produces PI3P)
+                                                │ membrane elongation
                                                 ▼
-              ATG12-ATG5-ATG16L1 偶联系统 + LC3-II(ATG4剪切proLC3,
-              ATG7/ATG3催化LC3-I脂化为LC3-II锚定双层膜)
-                                                │ 包裹货物
+              ATG12-ATG5-ATG16L1 conjugation system + LC3-II(ATG4 cleaves proLC3,
+              ATG7/ATG3 catalyze LC3-I lipidation to LC3-II anchored on double membrane)
+                                                │ cargo wrapping
                                                 ▼
-                    STX17-SNAP29-VAMP8 SNARE复合体 + Rab7/HOPS
-                    自噬体与溶酶体融合 ──> 酸性水解酶降解 ──> 氨基酸回收
+                    STX17-SNAP29-VAMP8 SNARE complex + Rab7/HOPS
+                    Autophagosome fuses with lysosome ──> acid hydrolase degradation ──> amino acid recycling
 ```
 
 Key regulatory node: **ULK1 is the intersection of mTORC1 and AMPK** - mTORC1 phosphorylates ULK1 Ser757 to inhibit the initiation of autophagy, and AMPK phosphorylates Ser317/777 to activate the initiation of autophagy (Kim et al. 2011 *Nat Cell Biol*). "Throttle and brake" directly collide. Selective autophagy is mediated by cargo receptors: **p62/SQSTM1** (UBA domain binds ubiquitination substrates, LIR domain binds LC3) mediates aggrephagy (aggrephagy); **PINK1-Parkin pathway** mediates mitophagy - after mitochondrial depolarization, PINK1 is stabilized in the outer membrane, recruits and phosphorylates and activates Parkin, and Parkin ubiquitinates MFN1/2, VDAC and other outer membrane proteins, and is p62/OPTN/NDP52 is linked to LC3 to complete clearance; OPTN mutations also cause ALS. **CMA** is recognized by cytosolic HSC70 as the KFERQ pentapeptide motif in the substrate, and is translocated into the lumen for degradation via the lysosomal membrane receptor LAMP-2A.

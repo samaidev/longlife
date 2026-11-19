@@ -120,7 +120,7 @@ Translation regulation is mainly at "initiation" (not elongation)—"starting is
 
 **"eIF2α switch" (global initiation).** Stress (amino acid deprivation/ER stress/viral infection) → eIF2α phosphorylation → eIF2-GTP-Met-tRNA cycling blocked → global translation inhibition—"the whole factory shuts down during stress";
 
-**"Selective translation."** During global inhibition, certain mRNAs (containing uORFs) are反而 translationally enhanced (e.g., ATF4) → stress proteins prioritized—"shutdown but key workshops keep running";
+**"Selective translation."** During global inhibition, certain mRNAs (containing uORFs) areare instead translationally enhanced (e.g., ATF4) → stress proteins prioritized—"shutdown but key workshops keep running";
 
 **"Ribosome biogenesis."** mTOR regulates rRNA transcription/ribosomal protein synthesis → determines "number of factories"—"the growth switch decides how many factories to open."
 
@@ -134,7 +134,7 @@ eIF2α phosphorylation is the "master switch" of translation regulation—its "g
 
 **"Four kinases, one outcome."** eIF2α kinases: PERK (ER stress), GCN2 (amino acid deprivation), PKR (viral infection), HRI (heme deficiency)—"four alarms, all pulling the same lever"—"regardless of the stress, first shut down and survive."
 
-**"uORF selective translation."** During global inhibition, mRNAs containing upstream open reading frames (uORFs) (e.g., ATF4/CHOP) are反而 translationally enhanced—mechanism: uORFs are short, normally the ribosome "reads through" and reinitiates; with eIF2α-P, the ribosome "skips" the uORF and directly translates the main ORF—"during shutdown, key workshops (stress genes)反而 work overtime."
+**"uORF selective translation."** During global inhibition, mRNAs containing upstream open reading frames (uORFs) (e.g., ATF4/CHOP) areare instead translationally enhanced—mechanism: uORFs are short, normally the ribosome "reads through" and reinitiates; with eIF2α-P, the ribosome "skips" the uORF and directly translates the main ORF—"during shutdown, key workshops (stress genes)instead work overtime."
 
 **"Integrated stress response (ISR)."** eIF2α phosphorylation → ATF4 and other transcription factors → upregulate stress genes (amino acid synthesis/antioxidant/autophagy) → cellular adaptation—"shutdown is not the goal, transformation is"—ISR dysregulation is linked to aging/neurodegeneration—"when transformation fails, cells die."
 

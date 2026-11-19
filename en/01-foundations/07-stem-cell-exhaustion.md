@@ -5,19 +5,19 @@
 Stem cell exhaustion refers to the process in which the self-renewal and differentiation potential of adult stem cells (ASCs) decline with age, leading to a decline in tissue regeneration and homeostasis maintenance capabilities. It is one of the nine hallmarks of aging proposed by López-Otín et al. in "The Hallmarks of Aging" in 2013, and is retained as the eighth "Integrative Hallmark" in the 2023 expanded version (12 items) - that is, it is the final functional collapse at the tissue level after years of accumulation of upstream damage and compensatory responses (genomic instability, epigenetic drift, mitochondrial disorders, and cellular senescence). Lineages such as hematopoietic stem cells, muscle satellite cells, neural stem cells, intestinal stem cells, and mesenchymal stem cells each show specific exhaustion trajectories, but their common characteristics are: the balance between self-renewal and differentiation is broken, quiescent state (quiescence) maintains inability, DNA damage and aging programs accumulate, and the microenvironment (niche) that supports them synchronously degrades. Stem cell exhaustion is the upstream driving event of aging-related tissue degeneration (immune decline, sarcopenia, anemia, aplasia, osteoporosis, cognitive decline), and therefore has become a key target for intervention in aging - whether and how to restore stem cell function is directly related to whether "healthspan" can be achieved. From the main line of anti-aging in this library, stem cell exhaustion is deeply coupled with the NO (nitric oxide)/NAD+ network: eNOS/NO maintains vascular niche and stem cell quiescence, and NAD+/SIRT1 determines the metabolism and apparent status of stem cells (see 01-foundations/03-no-basics.md and 04-nad-sirtuin.md for details).
 
 ```
-上游损伤（基因组/表观/线粒体/衰老细胞）
-        │  累积多年
+Upstream damage (genomic/epigenetic/mitochondrial/senescent cells)
+        │  accumulated over years
         ▼
-  干细胞自我更新失衡（静止丢失/分化偏向）
-        │  叠加
+  Stem cell self-renewal imbalance (quiescence loss/differentiation bias)
+        │  compounded by
         ▼
-  niche 退化（血管衰老/纤维化/炎症/SASP）
+  Niche degeneration (vascular aging/fibrosis/inflammation/SASP)
         │
         ▼
-  干细胞库耗竭 → 组织再生失败 → 器官功能衰退
+  Stem cell pool exhaustion → tissue regeneration failure → organ function decline
         │
-        └── 可干预节点：表观重编程、senolytics、
-            NAD+/NO、年轻循环因子、运动
+        └── Interventionable nodes: epigenetic reprogramming, senolytics,
+            NAD+/NO, young circulating factors, exercise
 ```
 
 ## 1. Panoramic view of adult stem cell system
@@ -61,13 +61,13 @@ Key regulatory factors:
 A typical mistake of senescent stem cells is **spontaneous entry into the cell cycle** (quiescence loss): they no longer wait for damage signals, but divide frequently. This comes at a double cost: each division introduces DNA replication errors and shortens telomeres; it also depletes the "reserve of self-renewal potential." At the epigenetic level, increased H3K4me3 modifications in aging HSCs lead to early activation of the differentiation program, while H3K27me3 repression of differentiation genes is weakened—"epipolarization" causes stem cells to commit to differentiation prematurely and impairs the ability to return to a stemness state.
 
 ```
-健康年轻干细胞：深度静止 → 按需激活 → 自我更新/分化 → 返回静止
-                                    ↑（动态可逆）
-衰老干细胞：   自发进入周期 → 频繁分裂 → 分化偏向 → 静止丢失
+Healthy young stem cells: deep quiescence → activation on demand → self-renewal/differentiation → return to quiescence
+                                    ↑ (dynamically reversible)
+Aged stem cells:    spontaneous cycling → frequent division → differentiation bias → quiescence loss
                                     ↓
-                    DNA损伤/ROS/端粒损耗累积 → p16/p53激活
+                    DNA damage/ROS/telomere attrition accumulate → p16/p53 activation
                                     ↓
-                            衰老/凋亡 → 干细胞库耗竭
+                            senescence/apoptosis → stem cell pool exhaustion
 ```
 
 ## 3. The whole chain of molecular mechanism

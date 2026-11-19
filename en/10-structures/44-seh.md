@@ -98,7 +98,7 @@ sEH's "EET recycling – vascular protection" cascade:
 - **"'Protection' pathway (CYP→EET)"**: AA → EET → vasodilation/anti-inflammatory — "one pathway of 'water' (CYP/EET)";
 - **"The 'key' to 'balance'"**: sEH inhibition → EET↑ (protection) → "counteracts" LOX/COX inflammation pathway → "balance" tilts toward protection — "close 'recycling station' (sEH↓) → more protective 'water' (EET↑) → extinguish 'fire' (anti-inflammatory) — 'three-pathway' balance 'shifts' to protection — 'complete' AA economy 'strategy'";
 
-**"The 'seesaw' of 'three pathways'"**: Inhibit LOX/COX (inflammation pathway) → AA more "flows to" CYP (protection pathway) → EET↑; while sEH inhibition "preserves" EET → "two-pronged approach" effects叠加 — "extinguish 'fire' 'pathway' (LOX/COX↓) → AA 'diverts to' protection' (CYP↑) → EET↑ + close station 'preserves' EET — 'synergistic' amplification — 'three-pathway' seesaw 'utilization'";
+**"The 'seesaw' of 'three pathways'"**: Inhibit LOX/COX (inflammation pathway) → AA more "flows to" CYP (protection pathway) → EET↑; while sEH inhibition "preserves" EET → "two-pronged approach" effectsare additive — "extinguish 'fire' 'pathway' (LOX/COX↓) → AA 'diverts to' protection' (CYP↑) → EET↑ + close station 'preserves' EET — 'synergistic' amplification — 'three-pathway' seesaw 'utilization'";
 
 **"The 'complete' picture of 'AA economy'"**: cPLA2α (master valve) → LOX (leukotrienes)/COX (prostaglandins) [inflammation] + CYP (EET) [protection] → sEH (gate) → "one valve 'three pathways' one 'gate' — 'revenue-expenditure' balance — 'anti-aging' = adjust 'valve' (moderate) + extinguish 'fire' (inflammation) + protect 'water' (EET) — 'complete' economic 'management' — 'closed-loop' thinking".
 

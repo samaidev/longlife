@@ -124,7 +124,7 @@ The aging significance of this interaction is: **The amplitude of the circadian 
 NAD⁺/SIRT1 and NO form a long-lived positive feedback loop:
 
 ```
-NAD⁺ ──► SIRT1 ──去乙酰化 eNOS (K496/K506)──► eNOS 活性↑
+NAD⁺ ──► SIRT1 ──deacetylates eNOS (K496/K506)──► eNOS activity↑
                                                   │
                                                   ▼
 NO generated↑                                                  │

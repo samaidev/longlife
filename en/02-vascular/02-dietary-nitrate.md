@@ -7,9 +7,9 @@
 The physiological significance of dietary nitrate has experienced a reversal of the concept of "poison → drug". In the mid-20th century, nitrate/nitrite were only regarded as food additives and potential carcinogens (nitrosamines); in 1994, Benjamin et al. discovered that NO can be produced non-enzymatically in the stomach. In the late 1990s, the Lundberg team proposed the "nitrate-nitrite-NO pathway" hypothesis. Since the 2000s, a large number of RCTs have confirmed its antihypertensive and exercise-enhancing effects. Today this pathway is considered the second pillar of NO homeostasis in the body, complementary to the eNOS pathway:
 
 ```text
-                        ┌─ 酶促通路: L-精氨酸 → eNOS → NO (需 O₂, 需 BH4)
-人体 NO 生成的两条通路 ─┤
-                        └─ 非酶促旁路: NO₃⁻ → NO₂⁻ → NO (缺氧/酸性更活跃)
+                        ┌─ Enzymatic pathway: L-arginine → eNOS → NO (requires O₂, requires BH4)
+Two pathways of human NO production ─┤
+                        └─ Non-enzymatic bypass: NO₃⁻ → NO₂⁻ → NO (more active in hypoxia/acidosis)
 ```
 
 The former is driven by shear stress, hormones, drugs (statins, etc.), and the latter is driven by diet and oral flora. The two share the downstream sGC/cGMP signal (see Section 1 of Part 01), so the target of dietary intervention is essentially "to provide more NO precursors to the shared downstream".
@@ -21,27 +21,27 @@ The former is driven by shear stress, hormones, drugs (statins, etc.), and the l
 The classic L-arginine/eNOS pathway relies on oxygen and cofactors, and its efficiency plummets during hypoxia. The dietary nitrate pathways are exactly complementary:
 
 ```text
-膳食硝酸盐 NO3⁻ (蔬菜/甜菜根)
-   │  肠道吸收 (小肠, 几乎完全吸收, 生物利用度 ~100%)
+Dietary nitrate NO3⁻ (vegetables/beetroot)
+   │  Intestinal absorption (small intestine, nearly complete absorption, bioavailability ~100%)
    ▼
-血浆 NO3⁻ → 唾液腺 (腮腺/颌下腺) 主动浓缩
-   │  唾液中 NO3⁻ 浓度达血浆的 10-20 倍
+Plasma NO3⁻ → salivary glands (parotid/submandibular) active concentration
+   │  Salivary NO3⁻ concentration reaches 10-20x plasma levels
    ▼
-口腔菌群还原: NO3⁻ → NO2⁻  (硝酸盐还原酶, 关键步骤!)
-   │  主要菌种: 罗氏菌属 Rothia (R. mucilaginosa / R. dentocariosa)、
-   │            奈瑟菌属 Neisseria、韦荣球菌 Veillonella、放线菌 Actinomyces
+Oral microbiota reduction: NO3⁻ → NO2⁻  (nitrate reductase, key step!)
+   │  Main species: Rothia (R. mucilaginosa / R. dentocariosa),
+   │            Neisseria, Veillonella, Actinomyces
    ▼
-吞咽 → 胃酸环境: NO2⁻ + H⁺ → HNO2 → NO↑  (非酶促还原, 胃内 NO 浓度可达 ppm 级)
+Swallowing → gastric acid: NO2⁻ + H⁺ → HNO2 → NO↑  (non-enzymatic reduction, gastric NO can reach ppm levels)
    │
    ▼
-进入循环的组织亚硝酸盐还原酶 (缺氧/低 pH 时激活):
-   ├─ 脱氧血红蛋白 (deoxyHb)  → NO + 高铁血红蛋白 (亚硝酸盐还原酶活性)
-   ├─ 黄嘌呤氧化酶 (XO)       → NO (兼产 O2⁻)
-   ├─ 脱氧肌红蛋白 (心肌/骨骼肌)
-   ├─ 醛氧化酶 / 细胞色素 P450 / eNOS (缺氧时亦可还原亚硝酸盐)
-   └─ 线粒体电子传递链复合体 III
+Tissue nitrite reductases entering circulation (activated in hypoxia/low pH):
+   ├─ Deoxyhemoglobin (deoxyHb)  → NO + methemoglobin (nitrite reductase activity)
+   ├─ Xanthine oxidase (XO)       → NO (also produces O2⁻)
+   ├─ Deoxymyoglobin (cardiac/skeletal muscle)
+   ├─ Aldehyde oxidase / cytochrome P450 / eNOS (can also reduce nitrite in hypoxia)
+   └─ Mitochondrial electron transport chain complex III
    ▼
-NO → sGC → cGMP → 血管舒张 (机制见 01 篇)
+NO → sGC → cGMP → vasodilation (mechanism in Article 01)
 ```
 
 **The key link is the oral cavity**: Salivary glands concentrate plasma nitrate 10–20 times into saliva, and oral commensal bacteria (mainly Roseburia and Neisseria) reduce it to nitrite. **After killing oral flora with mouthwash or antibiotics, the increase in plasma nitrite and the blood pressure-lowering effect are almost completely eliminated** - this is the most famous causal evidence of this pathway. Gastric acid further non-enzymatically converts nitrite into NO (high concentrations of NO in the stomach also have defensive significance in killing pathogenic bacteria).
